@@ -1,5 +1,6 @@
 ---
 layout: mypage
+permalink: instructions/node-faqs
 ---
 <style>
   .container-faq{
@@ -28,13 +29,24 @@ layout: mypage
   <h2>FAQ's</h2>
  
   <div class="accordion">
-    {% for faq_item in site.faqs[page.name] %}
     <div class="accordion-item">
-      <a>{{ faq_item.question}}</a>
+      <a>Question1</a>
       <div class="content">
-        <p>{{ faq_item.answer }}</p>
+        <p>Answer1</p>
     </div>
-    {% endfor %}
+
+    <div class="accordion-item">
+      <a>Question2</a>
+      <div class="content">
+        <p>Answer2</p>
+    </div>
+
+
+    <div class="accordion-item">
+      <a>Question3</a>
+      <div class="content">
+        <p>Answer3</p>
+    </div>
 
   </div>
   
