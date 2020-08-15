@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<style>
+
+
+.header .brand-name a{
+    color: #000000;
+}
+
+.header .nav-toggle{
+    border: 1px solid #000000;
+}
+
+
+.header .nav-toggle span{
+    background-color: #000000;
+}
+
+.header .nav-toggle span::before,
+.header .nav-toggle span::after{
+    background-color: #000000;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    padding: 25px 0;
+    display: block;
+    transition: all 0.3s ease;
+}
+table{
+    color: red;
+}
+
+    @media(max-width: 767px){
+        #timer{
+            font-size: 40px;
+            font-family: monospace, sans-serif;
+        }
+    }
+</style>
+
+<!-- Home Section Start  -->
+<section>
+    {{ content }}
+    
+</section>
+<!-- Home Section End  -->

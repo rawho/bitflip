@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<style>
+    #timer, #timer-started{
+        font-size: 60px;
+        font-family: monospace, sans-serif;
+        color: tomato;
+    }   
+    #event-starts-in{
+        margin-top: 20px;
+    }
+    @media(max-width: 767px){
+        #timer{
+            font-size: 40px;
+            font-family: monospace, sans-serif;
+        }
+    }
+</style>
+
+<!-- Home Section Start  -->
+<section class="home-section" id="home">
+    <!-- Shape -->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="home-content">
+                <h1>BITFLIP</h1>
+                <h4>We are Artists Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus consequuntur 
+                    debitis iste sunt excepturi asperiores maxime laborum ipsum porro quibusdam, quia quas suscipit dolor iusto, eos at, nam laboriosam! </h4>
+                <a href="/register"><button class="btn-01">Register now</button></a>
+                <h4 id='event-starts-in'>Event Starts in</h4>
+                <h4 id="timer"></h4>
+                <!-- <h4 id="timer-started">Started</h4> -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Home Section End  -->
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 17, 2020 11:20:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+    
