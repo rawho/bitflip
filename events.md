@@ -6,6 +6,10 @@ permalink: /events/
 
 
 /* Table Layout */
+a{
+    text-decoration: none;
+    color: #f2a365;
+}
 
 table{
     margin: 100px 0 0 0;
@@ -65,11 +69,12 @@ table  tbody tr:nth-child(even) {
     background: rgba(255, 255, 255, 0.2);
 }
 
-table  tbody tr:hover {
+/* table  tbody tr:hover,
+table  tbody tr:hover a{
     color: rgb(5, 5, 5);
     background: #cccccc;
     font-weight: 900;
-}
+} */
 
 table  tbody td {
     padding: 12px;
@@ -108,29 +113,43 @@ table  tfoot td {
 
     table  {
         font-size: 0.8em;
-    }
-    .header .nav-toggle {
-    display: flex;
-    margin-right: 55px;
+        max-width: 100%;
     }
 }
 </style>
 
-|Date  	  |Event  	          |Time     |
-|-	      |-	              |-	    |
-|26/8/2020|Python Basics      |IEEE     |
-|29/8/2020|Games using python |IEEE     |
-|4/9/2020 |Documentation      |IEEE     |
-|5/9/2020 |GIT                |IET      |
-|6/9/2020 |HTML/CSS           |ISTE     |
-|7/9/2020 |Open CV            |IET      |
-|9/9/2020 |ML 1               |ROBOCET  |
-|10/9/2020|JS                 |         |
-|11/9/2020|ML 2               |ROBOCET  |
-|13/9/2020|React              |FOSS CELL|
-|14/9/2020|ML3                |ROBOCET  |
-|16/9/2020|Node               |FOSS CELL|
-|17/9/2020|Quantum Computing 1|COMMON   |
-|18/9/2020|Quantum Computing 2|COMMON   |
-|20/9/2020|Quantum Computing 3|COMMON   |
-|22/9/2020|Quantum Computing 4|COMMON   |
+|Date  	  |Event  	              |Time     |
+|-	      |-	                  |-	    |
+|26/8/2020|[Python Basics     ][a]|IEEE     |
+|29/8/2020|[Games using python][b]|IEEE     |
+|4/9/2020 |[Documentation     ][c]|IEEE     |
+|5/9/2020 |[GIT               ][d]|IET      |
+|6/9/2020 |[HTML/CSS          ][e]|ISTE     |
+|7/9/2020 |[Open CV           ][f]|IET      |
+|9/9/2020 |[ML 1              ][g]|ROBOCET  |
+|10/9/2020|[JS                ][h]|         |
+|11/9/2020|[ML 2              ][i]|ROBOCET  |
+|13/9/2020|[React             ][j]|FOSS CELL|
+|14/9/2020|[ML3               ][k]|ROBOCET  |
+|16/9/2020|[Node              ][l]|FOSS CELL|
+|17/9/2020|[Quantum Computing1][m]|COMMON   |
+|18/9/2020|[Quantum Computing2][n]|COMMON   |
+|20/9/2020|[Quantum Computing3][o]|COMMON   |
+|22/9/2020|[Quantum Computing4][p]|COMMON   |
+
+[a]: /events/python-basics
+[b]: /events/gaming-using-python
+[c]: /events/gaming-using-python
+[d]: /events/gaming-using-python
+[e]: /events/gaming-using-python
+[f]: /events/gaming-using-python
+[g]: /events/gaming-using-python
+[h]: /events/gaming-using-python
+[i]: /events/gaming-using-python
+[j]: /events/gaming-using-python
+[k]: /events/gaming-using-python
+[l]: /events/gaming-using-python
+[m]: /events/gaming-using-python
+[n]: /events/gaming-using-python
+[o]: /events/gaming-using-python
+[p]: /events/gaming-using-python
