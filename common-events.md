@@ -77,11 +77,11 @@ permalink: /common-events/
 
     @media(max-width: 767px){
         .event-container{
-        margin-top: 100px;
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 80%;
-        row-gap: 20px;
+            margin-top: 150px;
+            display: grid;
+            grid-template-columns: 1fr;
+            max-width: 80%;
+            row-gap: 20px;
         }
         .box-event h1{
             font-size: 25px;
