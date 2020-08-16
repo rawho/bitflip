@@ -7,8 +7,8 @@ permalink: /events/
     .event-container{
         margin-top: 200px;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        max-width: 75%;
+        grid-template-columns: 1fr 1fr;
+        max-width: 65%;
         column-gap: 50px;
         row-gap: 100px;
         margin-left: auto;
@@ -16,7 +16,7 @@ permalink: /events/
     }
     .event-container .box-event{
         grid-column: auto;
-        width: 100%;
+        width: 80%;
         height: 400px;
         border-radius: 20px;
         justify-content: center;
@@ -31,24 +31,50 @@ permalink: /events/
     }
     .box-event p{
         position: absolute;
-        bottom: 50px;
+        bottom: 80px;
         left: 20px;
         color: #ffffff;
         font-weight: 600;
-        font-size: 22px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
+        padding-right: 20px;
     }
+    
     .box-event i{
         position: absolute;
-        bottom: 50px;
-        right: 50px;
+        bottom: 20px;
+        right: 100px;
         color: #ffffff;
         font-size: 40px;
+        animation: right 2s ease infinite;
     }
-    .box-event:nth-child(odd){
+
+    @keyframes right{
+        0%,20%,50%,80%,100%{
+            transform: translateX(0);
+        }
+        40%{
+            transform: translateX(-30px);
+        }
+        60%{
+            transform: translateX(-15px);
+        }
+    }
+    .box-event a{
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .box-event:nth-child(1),
+    .box-event:nth-child(4){
         background-color: #6200ee;
     }
-    .box-event:nth-child(even){
+    .box-event:nth-child(2),
+    .box-event:nth-child(3){
         background-color: #49aaa0;
     }
 
@@ -60,64 +86,44 @@ permalink: /events/
         max-width: 80%;
         row-gap: 20px;
         }
+        .event-container .box-event{
+            width: 100%;
+        }
+        .box-event h1{
+            font-size: 25px;
+        }
+        .box-event p{
+            font-size: 20px;
+        }
+        .box-event:nth-child(odd){
+            background-color: #6200ee;
+        }
+        .box-event:nth-child(even){
+            background-color: #49aaa0;
+        }
     }
 </style>
 
 <div class="event-container">
     <div class="box-event">
-        <h1>Python Basics </h1>
-        <p>26/8/2020</p>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>Games using python</h1>
-        <p>29/8/2020</p>>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>Documentation</h1>
-        <p>4/9/2020</p>>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>GIT</h1>
-        <p>5/9/2020</p>>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>HTML/CSS</h1>
-        <p>6/9/2020 </p>>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>Open CV </h1>
-        <p>7/9/2020</p>>
-        <i class="fa fa-angle-right"></i>
+        <h1>Common</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
+        <i class="fa fa-angle-right"></i><a href="/common-events/">View</a>
     </div>
     <div class="box-event">
         <h1>Machine Learning</h1>
-        <p>9/9/2020</p>>
-        <i class="fa fa-angle-right"></i>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint laboriosam amet est id facilis veritatis.</p>>
+        <i class="fa fa-angle-right"></i><a href="/machine-learning-events/">View</a>
     </div>
     <div class="box-event">
-        <h1>Javascript</h1>
-        <p>10/9/2020</p>>
-        <i class="fa fa-angle-right"></i>
+        <h1>Web Development</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum architecto corporis eum. Aspernatur rem ipsum, voluptatibus eius </p>
+        <i class="fa fa-angle-right"></i><a href="/web-dev-events/">View</a>
     </div>
     <div class="box-event">
-        <h1>React</h1>
-        <p>13/9/2020</p>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>Node</h1>
-        <p>16/9/2020</p>
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="box-event">
-        <h1>Quantum Computing1</h1>
-        <p>17/9/2020</p>
-        <i class="fa fa-angle-right"></i>
+        <h1>Quantum Computing</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur eaque tempora quae aut eos enim iusto est dolores .</p>>
+        <i class="fa fa-angle-right"></i><a href="/quantum-computing-events/">View</a>
     </div>
 </div>
 
