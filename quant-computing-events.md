@@ -84,7 +84,7 @@ permalink: /quantum-computing-events/
             row-gap: 20px;
         }
         .box-event h1{
-            font-size: 25px;
+            font-size: 28px;
         }
         .box-event p{
             font-size: 20px;

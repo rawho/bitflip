@@ -103,9 +103,9 @@ layout: default
         grid-column-end: 3;
         font-size: 20px;
     }
-    .container-event img.speaker{
+    #speaker{
             grid-column: auto;
-    }
+        }
     .container-event a{
         grid-column: 1/3;
         text-align: center;
@@ -166,7 +166,7 @@ layout: default
     <img id="poster" src="{{ page.poster_path }}" alt="">
     <p class="event-detail">{{page.details}}</p>
     <h3>Speaker</h3>
-    <img class="speaker" src="{{ page.speaker_img_path }}" alt="">
+    <img id="speaker" src="{{ page.speaker_img_path }}" alt="">
     <p class="event-detail">{{ page.speaker_info }}</p>
     {% if page.time %}
         <a href="/register"><button class="btn-01">Register now</button></a>
