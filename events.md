@@ -109,9 +109,10 @@ table  tfoot td {
 
 /* Mobile Layout */
 
-@media screen and (max-width: 767x) {
+@media(max-width: 767x) {
 
     table  {
+        margin-top: 100px;
         font-size: 0.8em;
         max-width: 100%;
     }
