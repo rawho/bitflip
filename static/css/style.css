@@ -69,7 +69,7 @@ button{
 }
 
 .btn-01{
-    background-color: #ff9800;
+    background-color: blue;
     color: #ffffff;
     border: 2px solid transparent;
     margin-top: 10px;
@@ -85,8 +85,8 @@ button{
 }
 .btn-01:hover{
     background-color: transparent;
-    border-color: #ff8900;
-    color: #ff9800;
+    border-color: blue;
+    color: #ffffff;
 }
 
 .btn-01:focus{
@@ -243,6 +243,8 @@ button{
     font-size: 20px;
     color: #ffffff;
     margin: 0 85px;
+    font-weight: 100;
+    letter-spacing: 2;
 }
 
 .home-section .home-content h1{

@@ -12,7 +12,7 @@ a{
 }
 
 table{
-    margin: 100px 0 0 0;
+    margin: 200px 0 0 0;
     border-collapse: collapse;
     border-spacing: 0;
     background: #212121;

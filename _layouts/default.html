@@ -11,14 +11,23 @@
     <link rel="stylesheet" href="/static/css/style.css">
     <title>BITFLIP</title>
 </head>
-
+<style>
+    #logo{
+        width: 100px;
+    }
+    @media(max-width: 767px){
+        #logo{
+            width: 50px;
+        }
+    }
+</style>
 <body>
     <!-- Header Start -->
     <header class="header">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="brand-name">
-                    <a href="/">BITFLIP</a>
+                    <a href="/"><img src="/static/images/logo.svg" id="logo" alt="logo"></a>
                 </div>
                 <div class="nav-toggle">
                     <span></span>
@@ -29,6 +38,7 @@
                         <li><a href="/events">Events</a></li>
                         <li><a href="/hackathon">hackathon</a></li>
                         <li><a href="/register">Register</a></li>
+                       
                     </ul>
                 </nav>
             </div>
