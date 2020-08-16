@@ -52,6 +52,7 @@ layout: default
         grid-template-rows: auto;
         column-gap: 30px;
         margin-bottom: 50px;
+        position: relative;
     }
 
     .container-event h1 {
@@ -111,6 +112,13 @@ layout: default
         text-align: center;
         margin-top: 20px;
     }
+    #footer{
+        color: #4b4747;
+        position: absolute;
+        bottom: -100px;
+        left: 35%;
+        
+    }
 
     @media(max-width: 767px) {
         .container-event {
@@ -156,6 +164,11 @@ layout: default
             font-size: 25px;
             color: tomato;
         }
+        #footer{
+            position: absolute;
+            bottom: -100px;
+            left: 0;
+        }
 
     }
 </style>
@@ -172,10 +185,13 @@ layout: default
         <a href="/register"><button class="btn-01">Register now</button></a>
         <h4 id='event-starts-in'>Event Starts in</h4>
         <h4 id="timer"></h4>
+        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
     {% else %}
         <h4 id="timer-started">Event has Started! Dont worry register for next event</h4>
         <a href="/events">see all events</a>
+        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
     {% endif %}
+    
 </div>
 
 

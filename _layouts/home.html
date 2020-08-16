@@ -10,10 +10,21 @@ layout: default
     #event-starts-in{
         margin-top: 20px;
     }
+    #footer{
+        color: #4b4747;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
     @media(max-width: 767px){
         #timer{
             font-size: 40px;
             font-family: monospace, sans-serif;
+        }
+        #footer{
+            position: absolute;
+            bottom: 0;
+            left: 2px;
         }
     }
 </style>
@@ -30,15 +41,17 @@ layout: default
                 <a href="/register"><button class="btn-01">Register now</button></a>
                 <h4 id='event-starts-in'>Event Starts in</h4>
                 <h4 id="timer"></h4>
+                <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
                 <!-- <h4 id="timer-started">Started</h4> -->
             </div>
+            
         </div>
+        
     </div>
+    
 </section>
 <!-- Home Section End  -->
-<section class="about-section">
 
-</section>
 <script>
     // Set the date we're counting down to
     var countDownDate = new Date("Aug 17, 2020 11:20:25").getTime();

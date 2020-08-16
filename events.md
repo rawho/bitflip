@@ -77,6 +77,7 @@ permalink: /events/
     .box-event:nth-child(3){
         background-color: #49aaa0;
     }
+    
 
     @media(max-width: 767px){
         .event-container{
@@ -125,6 +126,7 @@ permalink: /events/
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur eaque tempora quae aut eos enim iusto est dolores .</p>>
         <i class="fa fa-angle-right"></i><a href="/quantum-computing-events/">View</a>
     </div>
+
 </div>
 
 

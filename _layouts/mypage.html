@@ -35,11 +35,19 @@ body{
     display: block;
     transition: all 0.3s ease;
 } */
+#footer{
+    color: #4b4747;
+    text-align: center;   
+    padding-top: 100px;     
+}
 
     @media(max-width: 767px){
         #timer{
             font-size: 40px;
             font-family: monospace, sans-serif;
+        }
+        #footer{
+            
         }
     }
 </style>
@@ -48,5 +56,6 @@ body{
 <section>
     {{ content }}
     
+    <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
 </section>
 <!-- Home Section End  -->
