@@ -4,7 +4,7 @@ permalink: instructions/documentaion-faqs
 ---
 <style>
   .container-faq{
-    margin-top: 100px;
+    margin-top: 200px;
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -16,11 +16,13 @@ permalink: instructions/documentaion-faqs
     width: 60px;
     margin-bottom: 10px;
     border-bottom: 1px solid red;
+    color: #ffffff;
   }
   
 @media(max-width: 767px){
   .container-faq{
     max-width: 100%;
+    margin-top: 100px;
   }
 }
 </style>

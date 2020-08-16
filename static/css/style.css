@@ -84,9 +84,8 @@ button{
     transition: all 0.5s ease;
 }
 .btn-01:hover{
-    background-color: transparent;
-    border-color: blue;
-    color: #ffffff;
+    -webkitbox-shadow: 0 0 20px #ffffff;
+    box-shadow: 5px 10px 20px rgba(21, 4, 114, 0.8);
 }
 
 .btn-01:focus{
@@ -364,6 +363,7 @@ button{
 .accordion .content p {
   font-size: 1rem;
   font-weight: 300;
+  color: #ffffff;
 }
 .accordion .content.active {
   opacity: 1;

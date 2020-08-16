@@ -2,124 +2,127 @@
 layout: mypage
 permalink: /events/
 ---
+
 <style>
-
-
-/* Table Layout */
-a{
-    text-decoration: none;
-    color: #f2a365;
-}
-
-table{
-    margin: 200px 0 0 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    background: #212121;
-    color: #fff;
-    min-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-table  th, table  td {
-    text-align: center;
-}
-
-table  thead {
-    line-height: 28px;
-    background: #ff9800;
-    text-transform: uppercase;
-}
-
-table  thead th {
-    color: #fff;
-    padding: 10px;
-    letter-spacing: 1px;
-    vertical-align: bottom;
-}
-
-table  thead th:nth-child(1) {
-    width: 20%;
-    text-align: left;
-    padding-left: 20px;
-}
-
-table  thead th:nth-child(2) {
-    width: 40%;
-}
-
-table  thead th:nth-child(3) {
-    width: 30%;
-}
-
-
-table  tbody {
-    font-size: 1em;
-    line-height: 15px;
-}
-
-table  tbody tr {
-    /* border-top: 1px solid #ff9800; */
-    transition: background 0.2s, color 0.2s;
-}
-
-table  tbody tr:nth-child(even) {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-/* table  tbody tr:hover,
-table  tbody tr:hover a{
-    color: rgb(5, 5, 5);
-    background: #cccccc;
-    font-weight: 900;
-} */
-
-table  tbody td {
-    padding: 12px;
-}
-
-table  tbody tr:hover td:first-child {
-    background: rgba(0,0,0,0);
-}
-
-table  tbody td:first-child {
-    text-align: left;
-    padding-left: 20px;
-    font-weight: 700;
-    transition: background 0.2s;
-}
-
-table  tfoot {
-    font-size: 0.8em;
-}
-
-table  tfoot tr {
-    border-top: 2px solid #2e63e7;
-}
-
-table  tfoot td {
-    color: rgba(255,255,215,0.6);
-    text-align: left;
-    line-height: 15px;
-    padding: 15px 20px;
-}
-
-
-/* Mobile Layout */
-
-@media(max-width: 767x) {
-
-    table  {
-        margin-top: 100px;
-        font-size: 0.8em;
-        max-width: 100%;
+    .event-container{
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 75%;
+        column-gap: 50px;
+        row-gap: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
-}
+    .event-container .box-event{
+        grid-column: auto;
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        justify-content: center;
+        position: relative;
+    }
+    .box-event h1{
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .box-event p{
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box-event i{
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        color: #ffffff;
+        font-size: 40px;
+    }
+    .box-event:nth-child(odd){
+        background-color: #6200ee;
+    }
+    .box-event:nth-child(even){
+        background-color: #49aaa0;
+    }
+
+    @media(max-width: 767px){
+        .event-container{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 80%;
+        row-gap: 20px;
+        }
+    }
 </style>
 
-|Date  	  |Event  	              |Time     |
+<div class="event-container">
+    <div class="box-event">
+        <h1>Python Basics </h1>
+        <p>26/8/2020</p>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Games using python</h1>
+        <p>29/8/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Documentation</h1>
+        <p>4/9/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>GIT</h1>
+        <p>5/9/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>HTML/CSS</h1>
+        <p>6/9/2020 </p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Open CV </h1>
+        <p>7/9/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Machine Learning</h1>
+        <p>9/9/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Javascript</h1>
+        <p>10/9/2020</p>>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>React</h1>
+        <p>13/9/2020</p>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Node</h1>
+        <p>16/9/2020</p>
+        <i class="fa fa-angle-right"></i>
+    </div>
+    <div class="box-event">
+        <h1>Quantum Computing1</h1>
+        <p>17/9/2020</p>
+        <i class="fa fa-angle-right"></i>
+    </div>
+</div>
+
+
+<!-- |Date  	  |Event  	              |Time     |
 |-	      |-	                  |-	    |
 |26/8/2020|[Python Basics     ][a]|IEEE     |
 |29/8/2020|[Games using python][b]|IEEE     |
@@ -153,4 +156,4 @@ table  tfoot td {
 [m]: /events/gaming-using-python
 [n]: /events/gaming-using-python
 [o]: /events/gaming-using-python
-[p]: /events/gaming-using-python
+[p]: /events/gaming-using-python -->
