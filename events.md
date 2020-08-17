@@ -128,6 +128,7 @@ permalink: /events/
     </div>
 
 </div>
+<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
 
 
 <!-- |Date  	  |Event  	              |Time     |

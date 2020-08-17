@@ -114,3 +114,4 @@ permalink: /web-dev-events/
         <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
     </div>
 </div>
+<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
