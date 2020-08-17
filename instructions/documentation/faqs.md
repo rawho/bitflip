@@ -2,39 +2,16 @@
 layout: mypage
 permalink: instructions/documentaion-faqs
 ---
-<style>
-  .container-faq{
-    margin-top: 200px;
-    max-width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .container-faq h2{
-    margin-left: 20px;
-    line-height: 3;
-    display: block;
-    width: 60px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid red;
-    color: #ffffff;
-  }
-  
-@media(max-width: 767px){
-  .container-faq{
-    max-width: 100%;
-    margin-top: 100px;
-  }
-}
-</style>
+
 <div class="container-faq">
  
   <h2>FAQ's</h2>
  
   <div class="accordion">
     <div class="accordion-item">
-      <a>Question1</a>
+      <a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim excepturi similique sit dolorem laborum facere repellat libero modi commodi corporis.</a>
       <div class="content">
-        <p>Answer1</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolores optio maxime rem perspiciatis voluptates doloribus earum eos minus. Sint repellendus sunt obcaecati officia, ex at repudiandae consequatur id facilis, suscipit, quasi porro nisi impedit sed. Quas non aliquid, doloribus at, adipisci mollitia optio illum voluptate soluta nulla repellat reprehenderit!</p>
     </div>
 
     <div class="accordion-item">

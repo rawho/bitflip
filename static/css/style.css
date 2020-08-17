@@ -330,30 +330,30 @@ button{
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #c1c2c4;
   font-size: 1.15rem;
   font-weight: 400;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(196, 195, 201, 0.28);
 }
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #ff5353;
+  color: #ccb8f7;
 }
 .accordion a:hover::after {
-  border: 1px solid #ff5353;
+  border: 1px solid #ccb8f7;
 }
 .accordion a.active {
-  color: #ff5353;
-  border-bottom: 1px solid #ff5353;
+  color: #ccb8f7;
+  border-bottom: 1px solid #ccb8f7;
 }
 
 
 .accordion .content {
   opacity: 0;
-  padding: 0 1rem;
+  padding: 0 2rem;
   max-height: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(196, 195, 201, 0.28);
   overflow: hidden;
   clear: both;
   -webkit-transition: all 0.2s ease 0.15s;
@@ -367,7 +367,8 @@ button{
 }
 .accordion .content.active {
   opacity: 1;
-  padding: 1rem;
+  padding: 2rem;
+  padding-left: 3rem;
   max-height: 100%;
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
