@@ -1,4 +1,4 @@
 ---
-layout: construction
+layout: hackathon
 ---
 

@@ -245,6 +245,7 @@ button{
     margin: 0 85px;
     font-weight: 100;
     letter-spacing: 2;
+    margin-top: 25px 0;
 }
 
 .home-section .home-content h1{
@@ -252,7 +253,6 @@ button{
     color: #ffffff;
     margin: 0;
     font-weight: 900;
-    letter-spacing: 10px;
 }
 
 

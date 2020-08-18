@@ -1,0 +1,335 @@
+---
+layout: mypage
+---
+<style>
+  .container-faq{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .container-faq h2{
+    margin-left: 20px;
+    line-height: 3;
+    display: block;
+    width: 60px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid red;
+  }
+  
+   i{
+        color: #ffffff;
+    }
+    .date p{
+        color: #ffffff;
+        margin-top: 50px;
+        
+    }
+    h2{
+        color: #ff8900;
+    }
+    .date{
+        position: relative;
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        width: 190px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #date-date{
+        font-family: monospace;
+        font-size: 25px;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+    .date-ico{
+        position: absolute;
+        left: -20px;
+        top: 2px;
+        font-size: 40px;
+        color: #ff8900;
+
+    }
+    .about{
+        display: grid;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 1fr 2fr;
+        min-height: auto;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        column-gap: 50px;
+        row-gap: 100px;
+    }
+    .icons .fa{
+        font-size: 100px;
+    }
+    .container-faq{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .container-faq h2{
+        font-size: 60px;
+        display: inline;
+        padding-top: 0;
+    }
+    .speaker-section{
+        background-color: #000000;
+        background-image: none;
+    }
+    
+    .speakers{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        min-height: auto;
+        column-gap: 30px;
+        row-gap: 70px;
+    }
+    .speakers h1{
+        grid-column: 1/5;
+    }
+    .speaker-card{
+        
+        background-color: rgba(255,255,255,.09);
+        border-radius: 10px;
+    }
+    .speaker-card img{
+        width: 200px;
+        margin-top: 20px;
+ 
+    }
+    .speaker-card i{
+        font-size: 100px;
+        margin-top: 20px;
+        color: rgb(253, 253, 147);
+    }
+    .speaker-card h2{
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .speaker-card p{
+        padding: 10px 10px 10px 20px;
+        color: #dddddd;
+        text-align: left;
+    }
+    .prizes h2{
+        text-align: center;
+    }
+    .schedules button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    @media(max-width: 767px){
+        .about{
+            grid-template-columns: 1fr;
+            max-width: 100%;
+            padding: 0 10px;
+        }
+        .about h1{
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .about .icons{
+            display: none;
+        }
+        
+        .speaker-card{
+            grid-column: 1/5;
+            margin: 0 30px;
+        }
+        .speaker-card img{
+            margin-top: 30px;
+        }
+        .container-faq{
+            max-width: 100%;
+        }
+
+    }
+ 
+    
+</style>
+<section class="home-section" id="home">
+    <!-- Shape -->
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="home-content">
+                <h1>Hackathon</h1>
+                <h4>We are Artists Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus consequuntur 
+                    debitis iste sunt excepturi asperiores maxime laborum ipsum porro quibusdam, quia quas suscipit dolor iusto, eos at, nam laboriosam! </h4>
+                    <br>
+                <a href="/register"><button class="btn-01">Go To Dashboard</button></a> 
+                
+                <div class="date">
+
+                    <p id="date-date">25 Aug 2020</p>
+                    <i class="fa fa-calendar date-ico" aria-hidden="true"></i>
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</section>
+<section class="home-section">
+    <div class="container">
+        <div class="row align-items-center about">
+            <div class="icons">
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                <i class="fa fa-gift" aria-hidden="true"></i>
+                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                <i class="fa fa-gift" aria-hidden="true"></i>
+            </div>
+            <div class="home-content">
+                <h1>About</h1>
+                <h2>Create anything you can imagine with code, electronics, 3D models, and more.</h2>
+                <h4>We are Artists Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus consequuntur 
+                    debitis iste sunt excepturi asperiores maxime laborum ipsum porro quibusdam, quia quas suscipit dolor iusto, eos at, nam laboriosam! </h4>
+                    <div class="schedules">
+                        <center><button class="btn-01">See Schedules</button></center>
+                    </div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    
+</section>
+
+<section class="home-section speaker-section">
+    <div class="container">
+        <div class="home-content speakers">
+               <h1>Speakers</h1>
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+                
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/art.jpg" alt="">
+                    <h2>Rahul T</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
+                </div>
+        </div>
+        
+    </div>
+</section>
+<section class="home-section speaker-section">
+    <div class="container">
+        <div class="home-content speakers prizes">
+               <h1 style="margin-top: 150px;">Prizes</h1>
+                <div class="speaker-card">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h2>First</h2>
+                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
+                </div>
+                <div class="speaker-card">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h2>Second</h2>
+                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
+                </div>
+                <div class="speaker-card">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h2>Third</h2>
+                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
+                </div>
+                <div class="speaker-card">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h2>Something</h2>
+                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
+                </div>
+                <div class="speaker-card">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h2>Something</h2>
+                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
+                </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+<div class="container-faq">
+ 
+    <center><h2>FAQ's</h2></center>
+   
+    <div class="accordion">
+      <div class="accordion-item">
+        <a>Question1</a>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit deserunt laboriosam eos harum dignissimos, illo distinctio, quas sit, possimus aliquam voluptatum. Laboriosam quod debitis eveniet officia deserunt ratione aspernatur?</p>
+      </div>
+  
+      <div class="accordion-item">
+        <a>Question2</a>
+        <div class="content">
+          <p>Answer2</p>
+      </div>
+  
+  
+      <div class="accordion-item">
+        <a>Question3</a>
+        <div class="content">
+          <p>Answer3</p>
+      </div>
+  
+    </div>
+    
+  </div>
+  <section class="home-section speaker-section sponser">
+    <div class="container">
+        <div class="home-content speakers prizes">
+               <h1 style="margin-top: 150px;">Sponsers</h1>
+                <div class="speaker-card">
+                    <img src="/static/images/logo.svg" alt="" width="100px">
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/logo.svg" alt="" width="100px">
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/logo.svg" alt="" width="100px">
+                </div>
+                <div class="speaker-card">
+                    <img src="/static/images/logo.svg" alt="" width="100px">
+                </div>
+                
+        </div>
+        
+    </div>
+</section>
