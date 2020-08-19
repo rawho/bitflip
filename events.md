@@ -38,6 +38,8 @@ permalink: /events/
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         padding-right: 20px;
+        opacity: 0;
+        transition: all 1s ease;
     }
     
     .box-event i{
@@ -77,7 +79,15 @@ permalink: /events/
     .box-event:nth-child(3){
         background-color: #49aaa0;
     }
-    
+    .box-event:nth-child(1){
+        background-image: url('/static/images/art.jpg');
+    }
+    .box-event:nth-child(2){
+        background-image: url('/static/images/ml.jpeg');
+    }
+    .box-event:hover p{
+        opacity: 1;
+    }
 
     @media(max-width: 767px){
         .event-container{
