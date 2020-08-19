@@ -90,8 +90,11 @@ permalink: /events/
         background-image: url('/static/images/art.jpg');
     }
     .box-event:nth-child(2){
-        background-image: url('/static/images/ml.jpeg');
+        background-image: url('/static/images/ml.jpg');
         background-size: cover;
+        background-position: left;
+        background-position-x: center;
+        /* background-size: cover; */
     }
     .box-event:nth-child(2) h1{
         left: 20px;
@@ -100,6 +103,15 @@ permalink: /events/
         background-image: url('/static/images/web-dev.jpeg');
         background-size: cover;
 
+    }
+    .box-event:nth-child(4){
+        background-image: url('/static/images/quantum-com.jpeg');
+        background-size: cover;
+        background-position-x: left;
+        /* background-size: cover; */
+    }
+    .box-event:nth-child(4) h1{
+        top: 30%;
     }
     .box-event:nth-child(4):hover h1{
         left: 10px;
