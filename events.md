@@ -24,10 +24,11 @@ permalink: /events/
     }
     .box-event h1{
         position: absolute;
-        top: 50px;
-        left: 20px;
+        top: 40%;
+        left: 20%;
         color: #ffffff;
         font-size: 30px;
+        transition: all 1s ease;
     }
     .box-event p{
         position: absolute;
@@ -87,6 +88,10 @@ permalink: /events/
     }
     .box-event:hover p{
         opacity: 1;
+    }
+    .box-event:hover h1{
+        top: 50px;
+        left: 20px;
     }
 
     @media(max-width: 767px){
