@@ -21,6 +21,8 @@ permalink: /events/
         border-radius: 20px;
         justify-content: center;
         position: relative;
+        background-color: #000000;
+        z-index: 1;
     }
     .box-event h1{
         position: absolute;
@@ -33,14 +35,17 @@ permalink: /events/
     .box-event p{
         position: absolute;
         bottom: 80px;
-        left: 20px;
+        left: 10px;
+        right: 20px;
         color: #ffffff;
         font-weight: 600;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         padding-right: 20px;
         opacity: 0;
-        transition: all 1s ease;
+        transition: all .5s ease;
+        border-radius: 5px;
+        padding: 10px 0 10px 10px;
     }
     
     .box-event i{
@@ -51,6 +56,7 @@ permalink: /events/
         font-size: 40px;
         animation: right 2s ease infinite;
     }
+
 
     @keyframes right{
         0%,20%,50%,80%,100%{
@@ -85,9 +91,22 @@ permalink: /events/
     }
     .box-event:nth-child(2){
         background-image: url('/static/images/ml.jpeg');
+        background-size: cover;
+    }
+    .box-event:nth-child(2) h1{
+        left: 20px;
+    }
+    .box-event:nth-child(3){
+        background-image: url('/static/images/web-dev.jpeg');
+        background-size: cover;
+
+    }
+    .box-event:nth-child(4):hover h1{
+        left: 10px;
     }
     .box-event:hover p{
         opacity: 1;
+        background-color: rgba(0,0,0,0.7);
     }
     .box-event:hover h1{
         top: 50px;
@@ -107,9 +126,18 @@ permalink: /events/
         }
         .box-event h1{
             font-size: 28px;
+            top: 20px;
+            left: 10px;
+
+        }
+        .box-event:nth-child(4):hover h1{
+            top: 20px;
+            left: 10px;
         }
         .box-event p{
             font-size: 20px;
+            opacity: 1;
+            background-color: rgba(0,0,0,0.7);
         }
         .box-event:nth-child(odd){
             background-color: #6200ee;

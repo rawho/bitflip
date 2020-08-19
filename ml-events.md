@@ -99,18 +99,8 @@ permalink: /machine-learning-events/
         <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
     </div>
     <div class="box-event">
-        <h1>Getting Started</h1>
+        <h1>Deep Learning For Computer Vision</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>>
-        <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
-    </div>
-    <div class="box-event">
-        <h1>Classification (Mnist example)</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>>
-        <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
-    </div>
-    <div class="box-event">
-        <h1>ML3</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
         <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
     </div>
 </div>
