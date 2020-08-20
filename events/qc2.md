@@ -6,5 +6,5 @@ details: Quantum computing is an upcoming field with wide possibilities that can
 time: sept 18, 2020 10:00:00
 poster_path: /static/images/qiskit-poster.jpg
 speaker_img_path: /static/images/qc2-speaker.jpeg
-speaker_info: <strong> Kiran Johns </strong>
+speaker_info: <strong> Kiran Johns </strong> <br> Student at College of Engineering, Trivandrum
 ---

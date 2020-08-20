@@ -22,13 +22,13 @@ permalink: /quantum-computing-events/
     </div>
     <div class="box-event">
         <h1>Quantum Teleportation</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
+        <p>Quantum Teleportation is an exciting phenomenon where information is transmitted instantly between qubits over long distances</p>
         <i class="fa fa-angle-right"></i><a href="/events/quantum-computing-3">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
     <div class="box-event">
         <h1>Talk By industry Expert</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
+        <p>Coming Soon ....</p>
         <i class="fa fa-angle-right"></i><a href="/events/talk-by-expert">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>

@@ -2,9 +2,9 @@
 layout: eventdetails
 permalink: /events/quantum-computing-3
 heading: Quantum Teleportation
-details: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo nihil odit? Ipsa ut ipsam ad aspernatur debitis nostrum harum architecto dolorum. Nisi quis consequatur velit voluptatum quas nobis sapiente sunt rerum praesentium? Voluptas dicta, quidem perspiciatis, beatae, est tenetur eum a maiores alias atque fuga temporibus! Maxime, veniam officiis.
+details: Quantum Teleportation is an exciting phenomenon where information is transmitted instantly between qubits over long distances
 time: sept 20, 2020 10:00:00
-poster_path: /static/images/poster.jpeg
+poster_path: /static/images/teleportation-poster.png
 speaker_img_path: /static/images/qc3-speaker.jpeg
-speaker_info: Abhishek Jayachandran
+speaker_info: <strong> Abhishek Jayachandran </strong> <br> Student at College of Engineering, Trivandrum
 ---

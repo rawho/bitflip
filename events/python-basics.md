@@ -6,6 +6,6 @@ details: Python is a powerful general-purpose programming language. It is used i
 time: Aug 26, 2020 10:00:00
 poster_path: /static/images/python-basics-poster.jpg
 speaker_img_path: /static/images/python-basics-speaker.JPG
-speaker_info: <strong> Mohammed Rabeeh </strong>
+speaker_info: <strong> Mohammed Rabeeh </strong> <br> Student at College of Engineering, Trivandrum
 ---
 

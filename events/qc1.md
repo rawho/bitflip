@@ -6,5 +6,5 @@ details: Quantum Computing is regarded as the technology of the millennium. It t
 time: sept 17, 2020 10:00:00
 poster_path: /static/images/intro-qc-poster.jpg
 speaker_img_path: /static/images/qc1-speaker.jpeg
-speaker_info: <strong> Tom Johnson V </strong>
+speaker_info: <strong> Tom Johnson V </strong> <br> Student at College of Engineering, Trivandrum
 ---

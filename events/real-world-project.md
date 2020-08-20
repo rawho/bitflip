@@ -6,6 +6,6 @@ details: Python is a simple and widely used general purpose coding language whic
 time: Aug 29, 2020 10:00:00
 poster_path: /static/images/real-world-poster.jpg
 speaker_img_path: /static/images/python-basics-speaker.JPG
-speaker_info: <strong> Mohammed Rabeeh </strong>
+speaker_info: <strong> Mohammed Rabeeh </strong> <br> Student at College of Engineering, Trivandrum
 ---
 

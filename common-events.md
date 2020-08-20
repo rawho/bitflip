@@ -42,7 +42,7 @@ permalink: /common-events/
     </div>
     <div class="box-event">
         <h1>GIT</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>>
+        <p>Coming Soon ...</p>>
         <i class="fa fa-angle-right"></i><a href="/events/git">View</a>
         <img src="/static/images/git.jpg" alt="">
     </div>

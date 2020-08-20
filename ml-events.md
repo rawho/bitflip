@@ -15,7 +15,7 @@ permalink: /machine-learning-events/
 <div class="event-container">
     <div class="box-event">
         <h1>Open CV </h1>
-        <p>Computer vision has become one of the most important fields of interest in the past few years.</p>>
+        <p>A hands-on personalised deep learning workshop for those looking to use AI in their projects. Dwell a little deeper into using OpenCV with Python.</p>>
         <i class="fa fa-angle-right"></i><a href="/events/opencv">View</a>
         <img src="/static/images/opencv.jpeg" alt="">
     </div>
