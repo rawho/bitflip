@@ -128,6 +128,10 @@ permalink: /events/
             left: 10px;
 
         }
+        .box-event:nth-child(4) h1{
+            top: 20px;
+            left: 10px;
+        }
         .box-event:nth-child(4):hover h1{
             top: 20px;
             left: 10px;
