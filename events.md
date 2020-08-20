@@ -56,6 +56,15 @@ permalink: /events/
         font-size: 40px;
         animation: right 2s ease infinite;
     }
+    .box-event img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: .5;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
 
 
     @keyframes right{
@@ -78,38 +87,15 @@ permalink: /events/
         text-decoration: none;
         font-weight: 600;
     }
-    .box-event:nth-child(1),
-    .box-event:nth-child(4){
-        background-color: #6200ee;
-    }
-    .box-event:nth-child(2),
-    .box-event:nth-child(3){
-        background-color: #49aaa0;
-    }
+    
+    
     .box-event:nth-child(1){
         background-image: url('/static/images/art.jpg');
-    }
-    .box-event:nth-child(2){
-        background-image: url('/static/images/ml.jpg');
-        background-size: cover;
-        background-position: left;
-        background-position-x: center;
-        /* background-size: cover; */
     }
     .box-event:nth-child(2) h1{
         left: 20px;
     }
-    .box-event:nth-child(3){
-        background-image: url('/static/images/web-dev.jpeg');
-        background-size: cover;
 
-    }
-    .box-event:nth-child(4){
-        background-image: url('/static/images/quantum-com.jpeg');
-        background-size: cover;
-        background-position-x: left;
-        /* background-size: cover; */
-    }
     .box-event:nth-child(4) h1{
         top: 30%;
     }
@@ -118,7 +104,7 @@ permalink: /events/
     }
     .box-event:hover p{
         opacity: 1;
-        background-color: rgba(0,0,0,0.7);
+        background-color: rgba(0,0,0,0.5);
     }
     .box-event:hover h1{
         top: 50px;
@@ -162,7 +148,7 @@ permalink: /events/
 
 <div class="event-container">
     <div class="box-event">
-        <h1>Common</h1>
+        <h1>Basics</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
         <i class="fa fa-angle-right"></i><a href="/common-events/">View</a>
     </div>
@@ -170,16 +156,19 @@ permalink: /events/
         <h1>Machine Learning</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint laboriosam amet est id facilis veritatis.</p>>
         <i class="fa fa-angle-right"></i><a href="/machine-learning-events/">View</a>
+        <img src="/static/images/ml.jpg" alt="">
     </div>
     <div class="box-event">
         <h1>Web Development</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum architecto corporis eum. Aspernatur rem ipsum, voluptatibus eius </p>
         <i class="fa fa-angle-right"></i><a href="/web-dev-events/">View</a>
+        <img src="/static/images/web-dev.jpeg" alt="">
     </div>
     <div class="box-event">
         <h1>Quantum Computing</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur eaque tempora quae aut eos enim iusto est dolores .</p>>
         <i class="fa fa-angle-right"></i><a href="/quantum-computing-events/">View</a>
+        <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
 
 </div>
