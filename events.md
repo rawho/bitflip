@@ -160,7 +160,7 @@ permalink: /events/
         <i class="fa fa-angle-right"></i><a href="/common-events/">View</a>
     </div>
     <div class="box-event">
-        <h1>Machine Learning</h1>
+        <h1>Deep Learning</h1>
         <p>Get on the bandwagon for one of the most trendy fields in the market. Learn by doing multiple projects from image classification to object identification</p>>
         <i class="fa fa-angle-right"></i><a href="/machine-learning-events/">View</a>
         <img src="/static/images/ml.jpg" alt="">

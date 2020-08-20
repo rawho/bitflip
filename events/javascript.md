@@ -2,9 +2,9 @@
 layout: eventdetails
 permalink: /events/javascript
 heading: Javascript
-details: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo nihil odit? Ipsa ut ipsam ad aspernatur debitis nostrum harum architecto dolorum. Nisi quis consequatur velit voluptatum quas nobis sapiente sunt rerum praesentium? Voluptas dicta, quidem perspiciatis, beatae, est tenetur eum a maiores alias atque fuga temporibus! Maxime, veniam officiis.
-time: Aug 19, 2020 22:55:55
+details: JS is one of the core technologies of web development and can be used on both the front-end and the back-end. It allows you to add dynamic content to your website instead of boring static websites.
+time: sept 10, 2020 10:00:00
 poster_path: /static/images/javascript-poster.jpg
 speaker_img_path: /static/images/js-speaker.jpg
-speaker_info: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo nihil odit? Ipsa ut ipsam ad aspernatur debitis nostrum harum architecto dolorum. Nisi quis consequatur velit voluptatum quas nobis
+speaker_info: <strong> Rwithik Manoj </strong>
 ---
