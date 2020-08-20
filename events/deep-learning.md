@@ -1,8 +1,8 @@
 ---
 layout: eventdetails2
 permalink: /events/deeplearning
-heading: Deep Learning
-event-date: 9th September 
+heading: Deep Learning For Computer Vision
+event-date: 9th, 11th, 14th September 
 details: Deep learning added a huge boost to the already rapidly developing field of computer vision. With deep learning, a lot of new applications of computer vision techniquies have been introduced and are now becoming parts of our everyday lives.
 time: sept 9, 2020 10:00:00
 poster_path: /static/images/dl-poster.jpg

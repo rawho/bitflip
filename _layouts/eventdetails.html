@@ -126,7 +126,7 @@ layout: default
         
     }
     #event-date{
-        color: #ffffff;
+        color: #ff8900;
         font-size: 23px;
         font-weight: 100;
         font-family: monospace;
@@ -140,7 +140,7 @@ layout: default
             row-gap: 20px;
         }
         #event-date{
-        color: #ffffff;
+        color: #ff8900;
         font-size: 18px;
         font-weight: 100;
         font-family: monospace;
@@ -192,7 +192,7 @@ layout: default
 
 
 <div class="container-event">
-    <h1>{{page.heading}} <span id="event-date"><br>--{{page.event-date}}</span> </h1>
+    <h1>{{page.heading}} <span id="event-date"><br>{{page.event-date}}</span> </h1>
     <img id="poster" src="{{ page.poster_path }}" alt="">
     <p class="event-detail">{{page.details}}</p>
     <h3>Speaker</h3>
