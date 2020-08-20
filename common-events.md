@@ -8,6 +8,12 @@ permalink: /common-events/
     height: 100%;
     width: 100%;
 }
+.event-container .box-event:nth-child(4) h1{
+    left: 40%;
+}
+.event-container .box-event:nth-child(4) img{
+    opacity: .2;
+}
 @media(max-width: 767px){
     .event-container .box-event{
         height: 450px;
@@ -38,7 +44,7 @@ permalink: /common-events/
         <h1>GIT</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>>
         <i class="fa fa-angle-right"></i><a href="/events/git">View</a>
-        <img src="/static/images/git.jpeg" alt="">
+        <img src="/static/images/git.jpg" alt="">
     </div>
 </div>
 <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
