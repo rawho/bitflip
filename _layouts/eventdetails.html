@@ -125,6 +125,12 @@ layout: default
         left: 35%;
         
     }
+    #event-date{
+        color: #ffffff;
+        font-size: 23px;
+        font-weight: 100;
+        font-family: monospace;
+    }
 
     @media(max-width: 767px) {
         .container-event {
@@ -133,7 +139,12 @@ layout: default
             padding-top: 30px;
             row-gap: 20px;
         }
-
+        #event-date{
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 100;
+        font-family: monospace;
+    }
         .container-event h1{
             grid-column-start: 1;
             grid-column-end: 3;
@@ -181,7 +192,7 @@ layout: default
 
 
 <div class="container-event">
-    <h1>{{page.heading}}</h1>
+    <h1>{{page.heading}} <span id="event-date">--{{page.event-date}}</span> </h1>
     <img id="poster" src="{{ page.poster_path }}" alt="">
     <p class="event-detail">{{page.details}}</p>
     <h3>Speaker</h3>
