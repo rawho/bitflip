@@ -29,7 +29,7 @@ permalink: /quantum-computing-events/
     <div class="box-event">
         <h1>Talk By industry Expert</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
-        <i class="fa fa-angle-right"></i><a href="/events/gaming-using-python">View</a>
+        <i class="fa fa-angle-right"></i><a href="/events/talk-by-expert">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
 </div>
