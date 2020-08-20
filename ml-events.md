@@ -17,7 +17,7 @@ permalink: /machine-learning-events/
     <div class="box-event">
         <h1>Deep Learning For Computer Vision</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>>
-        <i class="fa fa-angle-right"></i><a href="/events/">View</a>
+        <i class="fa fa-angle-right"></i><a href="/events/deeplearning">View</a>
         <img src="/static/images/ml.jpg" alt="">
     </div>
 </div>
