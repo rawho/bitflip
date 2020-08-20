@@ -167,7 +167,7 @@ permalink: /events/
     </div>
     <div class="box-event">
         <h1>Web Development</h1>
-        <p>A must have skill in today's world. Learn all the import tools a web devloper would need . Sessions include HTML , JavaScript, React  and Django</p>
+        <p>A must have skill in today's world. Learn all the import tools a web devloper would need. Sessions include HTML, JavaScript, React and Django</p>
         <i class="fa fa-angle-right"></i><a href="/web-dev-events/">View</a>
         <img src="/static/images/web-dev.jpeg" alt="">
     </div>
