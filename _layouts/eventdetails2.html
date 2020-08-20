@@ -51,6 +51,7 @@ layout: default
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         column-gap: 30px;
+        row-gap: 60px;
         margin-bottom: 50px;
         position: relative;
     }
@@ -103,6 +104,8 @@ layout: default
         grid-column-start: 2;
         grid-column-end: 3;
         font-size: 20px;
+        justify-self: center;
+        align-self: center;
     }
     .container-event .speaker{
             grid-column: auto;
@@ -182,7 +185,10 @@ layout: default
     <p class="event-detail">{{page.details}}</p>
     <h3>Speakers</h3>
     <img class="speaker" src="{{ page.speaker_img_path }}" alt="">
-    <img style="height: 330px;width: auto;" class="speaker" src="{{ page.speaker_img_path2 }}" alt="">
+    <p class="event-detail">Blossom Bastian</p>
+    <img class="speaker" src="{{ page.speaker_img_path2 }}" alt="">
+    <p class="event-detail">Nahil Ahmed</p>
+
     {% if page.time %}
         <a href="/register"><button class="btn-01">Register now</button></a>
         <h4 id='event-starts-in'>Event Starts in</h4>
