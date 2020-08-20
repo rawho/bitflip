@@ -95,6 +95,9 @@ permalink: /events/
     .box-event:nth-child(2) h1{
         left: 20px;
     }
+    .box-event:nth-child(4) {
+        height: 500px;
+    }
 
     .box-event:nth-child(4) h1{
         top: 30%;
@@ -153,24 +156,24 @@ permalink: /events/
 <div class="event-container">
     <div class="box-event">
         <h1>Basics</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum fugit assumenda ipsum temporibus reprehenderit corrupti?</p>
+        <p>Get started on you path to being a developer with sessions on python , git and project documentation</p>
         <i class="fa fa-angle-right"></i><a href="/common-events/">View</a>
     </div>
     <div class="box-event">
         <h1>Machine Learning</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint laboriosam amet est id facilis veritatis.</p>>
+        <p>Get on the bandwagon for one of the most trendy fields in the market. Learn by doing multiple projects from image classification to object identification</p>>
         <i class="fa fa-angle-right"></i><a href="/machine-learning-events/">View</a>
         <img src="/static/images/ml.jpg" alt="">
     </div>
     <div class="box-event">
         <h1>Web Development</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum architecto corporis eum. Aspernatur rem ipsum, voluptatibus eius </p>
+        <p>A must have skill in today's world. Learn all the import tools a web devloper would need . Sessions include HTML , JavaScript, React  and Django</p>
         <i class="fa fa-angle-right"></i><a href="/web-dev-events/">View</a>
         <img src="/static/images/web-dev.jpeg" alt="">
     </div>
     <div class="box-event">
         <h1>Quantum Computing</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequuntur eaque tempora quae aut eos enim iusto est dolores .</p>>
+        <p>Had enough of SciFi movies put quantum in front of anything to explain everything? Get ready to learn the real stuff. You'll get to work on real quantum computer provided by IBM cloud platform</p>>
         <i class="fa fa-angle-right"></i><a href="/quantum-computing-events/">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>

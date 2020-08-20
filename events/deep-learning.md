@@ -7,6 +7,8 @@ time: Aug 19, 2020 22:55:55
 poster_path: /static/images/poster.jpeg
 speaker_img_path: /static/images/dl-speaker-1.jpg
 speaker_img_path2: /static/images/dl-speaker-2.jpeg
+speaker1: Blossom Bastian
+speaker2: Nahil Ahmed
 speaker_info: OpenCV- IET Aaron Xavier Research Engineer, AugSense Labs Pvt Ltd.
 ---
 

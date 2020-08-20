@@ -185,9 +185,9 @@ layout: default
     <p class="event-detail">{{page.details}}</p>
     <h3>Speakers</h3>
     <img class="speaker" src="{{ page.speaker_img_path }}" alt="">
-    <p class="event-detail">Blossom Bastian</p>
+    <p class="event-detail">{{page.speaker1}}</p>
     <img class="speaker" src="{{ page.speaker_img_path2 }}" alt="">
-    <p class="event-detail">Nahil Ahmed</p>
+    <p class="event-detail">{{page.speaker2}}</p>
 
     {% if page.time %}
         <a href="/register"><button class="btn-01">Register now</button></a>
