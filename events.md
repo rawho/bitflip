@@ -95,7 +95,11 @@ permalink: /events/
     .box-event:nth-child(2) h1{
         left: 20px;
     }
-    .box-event:nth-child(4) {
+    .box-event:nth-child(3) img{
+        opacity: .3;
+    }
+    .box-event:nth-child(4), 
+    .box-event:nth-child(3){
         height: 500px;
     }
 
@@ -144,12 +148,6 @@ permalink: /events/
             opacity: 1;
             background-color: rgba(0,0,0,0.7);
         }
-        .box-event:nth-child(odd){
-            background-color: #6200ee;
-        }
-        .box-event:nth-child(even){
-            background-color: #49aaa0;
-        }
     }
 </style>
 
@@ -169,7 +167,7 @@ permalink: /events/
         <h1>Web Development</h1>
         <p>A must have skill in today's world. Learn all the import tools a web devloper would need. Sessions include HTML, JavaScript, React and Django</p>
         <i class="fa fa-angle-right"></i><a href="/web-dev-events/">View</a>
-        <img src="/static/images/web-dev.jpeg" alt="">
+        <img src="/static/images/web-dev.png" alt="">
     </div>
     <div class="box-event">
         <h1>Quantum Computing</h1>
