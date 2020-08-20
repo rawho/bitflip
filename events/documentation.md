@@ -2,7 +2,7 @@
 layout: eventdetails
 permalink: /events/documentation
 heading: Documentation
-event-date: September 4
+event-date: 4th September
 details: Documenting your projects is as important as doing them. Knowing how to do that is a skill everyone must have.
 time: sept 4, 2020 10:00:00
 poster_path: /static/images/documentation-poster.jpg

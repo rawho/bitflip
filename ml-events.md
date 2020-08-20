@@ -15,13 +15,13 @@ permalink: /machine-learning-events/
 <div class="event-container">
     <div class="box-event">
         <h1>Open CV </h1>
-        <p>A hands-on personalised deep learning workshop for those looking to use AI in their projects. Dwell a little deeper into using OpenCV with Python.</p>>
+        <p>Dwell a little deeper into using OpenCV with Python.</p>>
         <i class="fa fa-angle-right"></i><a href="/events/opencv">View</a>
         <img src="/static/images/opencv.jpeg" alt="">
     </div>
     <div class="box-event">
         <h1>Deep Learning For Computer Vision</h1>
-        <p>Deep learning added a huge boost to the already rapidly developing field of computer vision</p>>
+        <p>A hands-on personalised deep learning workshop for those looking to use AI in their projects. </p>>
         <i class="fa fa-angle-right"></i><a href="/events/deeplearning">View</a>
         <img src="/static/images/ml.jpg" alt="">
     </div>

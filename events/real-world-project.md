@@ -2,7 +2,7 @@
 layout: eventdetails
 permalink: /events/real-world-projects
 heading: Real World Projects Using Python
-event-date: August 29
+event-date: 29th August
 details: Python is a simple and widely used general purpose coding language which can be used for software development web development and so on.
 time: Aug 29, 2020 10:00:00
 poster_path: /static/images/real-world-poster.jpg
