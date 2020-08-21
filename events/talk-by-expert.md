@@ -7,5 +7,5 @@ details: Quantum computing marks a new age of computational science. With promis
 time: sept 21, 2020 10:00:00
 poster_path: /static/images/talk-by-expert.jpg
 speaker_img_path: /static/images/talk-by-expert-speaker.jpg
-speaker_info: <strong> Rajiv Krishnakumar </strong> <br> Quantum computer Researcher at Goldman Sachs
+speaker_info: <strong> Rajiv Krishnakumar </strong> <br> Quantum computing Researcher at Goldman Sachs
 ---
