@@ -28,7 +28,7 @@ permalink: /quantum-computing-events/
     </div>
     <div class="box-event">
         <h1>Talk By industry Expert</h1>
-        <p>Coming Soon ....</p>
+        <p>With promises of great potential in multiple fields. this is something every budding engineer should know about</p>
         <i class="fa fa-angle-right"></i><a href="/events/talk-by-expert">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>

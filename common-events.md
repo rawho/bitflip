@@ -42,7 +42,7 @@ permalink: /common-events/
     </div>
     <div class="box-event">
         <h1>GIT</h1>
-        <p>Coming Soon ...</p>>
+        <p>The power of open source is the Power of people rule.</p>>
         <i class="fa fa-angle-right"></i><a href="/events/git">View</a>
         <img src="/static/images/git.jpg" alt="">
     </div>
