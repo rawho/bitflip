@@ -14,8 +14,6 @@ permalink: /non-technical/
     }
     .event-container .box-event{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
         grid-column: auto;
         width: 100%;
         height: 500px;
@@ -24,6 +22,23 @@ permalink: /non-technical/
         position: relative;
         background-color: #000000;
         
+    }
+    .event-container .box-event .poster img{    
+        position: absolute;
+        top: 0;
+        height: 500px;
+    }
+    .event-container .box-event .poster button{    
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        opacity: 0;
+    }
+    .event-container .box-event:hover .poster button{
+        opacity: 1;
+    }
+    .event-container .box-event:hover .poster img{
+        opacity: .5;
     }
     .box-event img{
         position: absolute;
@@ -34,12 +49,8 @@ permalink: /non-technical/
         opacity: 1;
         
     }
-    .event-container .box-event .poster{
-        
-    }
 
-
-
+    
     
 
     @media(max-width: 767px){
@@ -53,6 +64,10 @@ permalink: /non-technical/
         .event-container .box-event{
             width: 100%;
         }
+        #mob-btn{
+            opacity: .5;
+
+        }
 
     }
 </style>
@@ -61,16 +76,19 @@ permalink: /non-technical/
     <div class="box-event">
         <div class="poster">
             <img src="/static/images/non-tech1.jpg" alt="">        
+            <button id="mob-btn" class="btn-01">Coming soon ..</button>
         </div>
     </div>
     <div class="box-event">
         <div class="poster">
-            <img src="/static/images/non-tech2.jpg" alt="">        
+            <img src="/static/images/non-tech2.jpg" alt="">       
+            <button id="mob-btn" class="btn-01">Coming soon ..</button> 
         </div>
     </div>
     <div class="box-event">
         <div class="poster">
             <img src="/static/images/non-tech3.png" alt="">        
+            <button id="mob-btn" class="btn-01">Coming soon ..</button>
         </div>
     </div>
 
