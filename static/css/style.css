@@ -374,3 +374,28 @@ button{
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
 }
+
+.container-faq .accordion .accordion-item .content .link{
+    position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  color: #c1c2c4;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: none;
+  text-decoration: none;
+  color: rgb(149, 149, 204);
+}
+.accordion .link.active {
+  color: #ccb8f7;
+  border-bottom: none;
+}
