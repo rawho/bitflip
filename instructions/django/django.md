@@ -1,7 +1,7 @@
 ---
 layout: instructions
 heading: Django
-description: Django is one of the latest and widely used backend framework written in Python Language. Django makes it easy to start small scale development and easily scale it up as per requirement.
+description: Django is one of the latest and widely used backend framework for hosting websites and web apps; written in Python Language. Django makes it easy to start small scale development and easily scale it up as per requirement.
 permalink: instructions/django
 ---
 # Installation
