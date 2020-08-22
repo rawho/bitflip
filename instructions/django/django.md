@@ -10,7 +10,7 @@ Please make sure that you have Python and pip installed in your system.
 
 ### For Windows
 
-Visit https://www.python.org/, download 'Windows x86-64 executable installer' and open the installer.
+Visit [https://www.python.org/](https://www.python.org/) , download 'Windows x86-64 executable installer' and open the installer.
 
 **"Important: Do tick the box labelled _"Add Python 3.x to PATH "_ !!**
 
