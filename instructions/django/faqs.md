@@ -9,9 +9,10 @@ permalink: instructions/django-faqs
  
   <div class="accordion">
     <div class="accordion-item">
-      <a>Question1</a>
+      <a>Question1: "It says ''python' is not recognized as an internal or external command,
+operable program or batch file.' when I enter in the command prompt/terminal, even after I installed python. Why?"</a>
       <div class="content">
-        <p>Answer1</p>
+        <p>Answer1: This usually happens when python is not added to the PATH environment variable. It happened most probably because the "Add to PATH" option was not checked during installation. But it's fine, you can manually add it. Please refer https://datatofish.com/add-python-to-windows-path/ for instructions.</p>
     </div>
 
     <div class="accordion-item">
