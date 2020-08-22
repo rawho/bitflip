@@ -2,7 +2,7 @@
 layout: instructions
 heading: NODE
 description: Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-permalink: instructions/node
+permalink: instructions/django
 ---
 # instructions
 ou’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
@@ -105,5 +105,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-talk]: https://talk.jekyllrb.com/
 
 <div class="faq markdown-body">
-    <p>Still Have some Doubts, see the <a href="/instructions/node-faqs">FAQ's</a> page</p> 
+    <p>Still Have some Doubts, see the <a href="/instructions/django-faqs">FAQ's</a> page</p> 
 </div>

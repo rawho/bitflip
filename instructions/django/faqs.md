@@ -1,6 +1,6 @@
 ---
 layout: mypage
-permalink: instructions/node-faqs
+permalink: instructions/django-faqs
 ---
 
 <div class="container-faq">
