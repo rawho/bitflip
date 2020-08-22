@@ -93,4 +93,4 @@ permalink: /non-technical/
     </div>
 
 </div>
-<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+<p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
