@@ -20,8 +20,8 @@ Open command prompt and enter `python`. If it returns >>> prompt, python install
 
 Usually, python will be pre-installed. Open terminal and type `python3` then enter to check. If >>> prompt is seen, python is installed in the system.
 
-
-Next, install Django using pip
+----------------------------------------------------------
+## Next, install Django using pip
 
 ### For Windows
 
