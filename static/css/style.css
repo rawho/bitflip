@@ -92,6 +92,7 @@ button{
     outline: none;
 }
 
+
 /* Header  */
 .header{
     position: absolute;
@@ -195,6 +196,11 @@ button{
     transition: all 0.3s ease;
 }
 
+.header .nav ul li a.active,
+header.fixed .nav ul li a.active{
+    color: #ff8900;
+}
+
 .header.fixed .nav ul li a{
     color: #ffffff;
 }
@@ -254,6 +260,8 @@ button{
     margin: 0;
     font-weight: 900;
 }
+
+
 
 
 /* responsive */

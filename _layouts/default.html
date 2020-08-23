@@ -39,12 +39,12 @@
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/events">Events</a></li>
-                        <li><a href="/non-technical">Non Technical</a></li>
-                        <li><a href="/ideathon">Ideathon</a></li>
-                        <li><a href="/hackathon">Hackathon</a></li>
-                        <li><a href="/register">Register</a></li>
+                        <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                        <li><a href="/events" {% if page.url == "/events/" %}class="active"{% endif %}>Events</a></li>
+                        <li><a href="/non-technical" {% if page.url == "/non-technical/" %}class="active"{% endif %}>Non Technical</a></li>
+                        <li><a href="/ideathon" {% if page.url == "/ideathon/" %}class="active"{% endif %}>Ideathon</a></li>
+                        <li><a href="/hackathon" {% if page.url == "/hackathon/" %}class="active"{% endif %}>Hackathon</a></li>
+                        <li><a href="/register" {% if page.url == "/register/" %}class="active"{% endif %}>Register</a></li>
                        
                     </ul>
                 </nav>
@@ -59,5 +59,6 @@
     </section>
     <script src="/static/js/jQuery.min.js"></script>
     <script src="/static/js/main.js"></script>
+    <script src="/static/js/index.js"></script>
 </body>
 </html>

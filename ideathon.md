@@ -1,3 +1,4 @@
 ---
 layout: construction
+permalink: /ideathon/
 ---
