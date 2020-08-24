@@ -74,7 +74,7 @@ permalink: /non-technical/
 
     }
 </style>
-{% include googleDrivePlayer.html id=page.driveId %}
+<!-- {% include googleDrivePlayer.html id=page.driveId %} -->
 <div class="event-container">
     <div class="box-event">
         <div class="poster">
