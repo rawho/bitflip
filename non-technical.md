@@ -1,5 +1,6 @@
 ---
 layout: mypage
+driveId: 1yvh0vhIFDP2QkG_zurGqd8j3JH7ctC5z/preview
 permalink: /non-technical/
 ---
 
@@ -50,7 +51,9 @@ permalink: /non-technical/
         
     }
 
-    
+    video{
+        margin-top: 200px;
+    }
     
 
     @media(max-width: 767px){
@@ -71,7 +74,7 @@ permalink: /non-technical/
 
     }
 </style>
-
+{% include googleDrivePlayer.html id=page.driveId %}
 <div class="event-container">
     <div class="box-event">
         <div class="poster">
