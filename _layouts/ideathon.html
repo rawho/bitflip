@@ -1,0 +1,103 @@
+---
+layout: mypage
+---
+<style>
+
+body{
+    color: #ffffff;
+}
+
+.container-ideathon{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80%;
+    column-gap: 20px;
+
+}
+.boxes h4.a{
+    color: #ff8900;
+    font-weight: 200;
+}
+.boxes img{
+    max-width: 80%;
+    justify-self: center;
+}
+.boxes h4{
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.boxes h5{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 30px;
+}
+#prize{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff8900;
+    padding:5px 15px;
+}
+.date-sub{
+    color: #ff8900;
+    font-family: monospace;
+    letter-spacing: .0001rem;
+}
+.boxes:nth-child(3){
+    margin-top: 80px;
+    margin-bottom: 200px;
+    
+    justify-self: center;
+}
+@media(max-width: 767px){
+    .container-ideathon{
+        grid-template-columns: 1fr;
+
+    }
+    .boxes img{
+        max-width: 100%;
+    }
+    .boxes h4.a{
+        font-size: 22px;
+    }
+    .boxes h4{
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .container-ideathon .boxes:nth-child(1){
+        display: block;
+    }
+}
+
+</style>
+
+
+<div class="container-ideathon">
+    <div class="boxes">
+        <img src="/static/images/ideathon.jpeg" alt="poster">
+    </div>
+    <div class="boxes">
+        <h4>Description</h4>
+
+            we are looking for innovative ideas that are viable in today's society
+
+        <h4>Prerequisites</h4>
+        <ul>
+            <li>Documentation and Technical paper writing session</li>
+        </ul>
+        <h4 class="a">Problem Statements will be released on 4<sup>th</sup> September</h4>
+
+        <h4>Prize: <span id="prize">3K</span></h4>
+
+        <h5>Date of Submission : <span class="date-sub">15<sup>th</sup> september</span></h5>
+        <h5>Date of Presentation : <span class="date-sub">30<sup>th</sup> september</span></h5>
+    </div>
+    <div class="boxes">
+        <button class="btn-01">Submission open soon</button>
+    </div>
+</div>
+
