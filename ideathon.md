@@ -1,4 +1,4 @@
 ---
-layout: ideathon
+layout: construction
 permalink: /ideathon/
 ---

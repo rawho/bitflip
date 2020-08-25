@@ -1,5 +1,5 @@
 ---
-layout: mypage
+layout: construction
 driveId: 1yvh0vhIFDP2QkG_zurGqd8j3JH7ctC5z/preview
 permalink: /non-technical/
 ---
