@@ -44,7 +44,7 @@ $(document).ready(function(){
     });
   });
   
-  const items = document.querySelectorAll(".accordion a");
+const items = document.querySelectorAll(".accordion a");
  
 function toggleAccordion(){
   this.classList.toggle('active');
