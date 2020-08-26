@@ -9,6 +9,7 @@ body{
     position:absolute;
     left:0;
     top:0;
+    position: fixed;
     z-index:-1;
     opacity: .4;
 }
@@ -36,7 +37,7 @@ body{
 .main{
     margin-top: 200px;
     text-align: center;
-    min-height: 85vh;
+    min-height: 100vh;
 }
 .main h1{
     font-size: 60px;
@@ -54,36 +55,110 @@ body{
     margin-top: 30px;
 }
 
-.date{
-    position: relative;
-    display: flex;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    width: 190px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#date-date{
-    font-family: monospace;
-    font-size: 25px;
-    position: absolute;
-    right: 0;
-    z-index: 1;
-}
-.date-ico{
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    font-size: 40px;
+#date{
     color: #ff8900;
-
+    font-family: monospace;
+    margin-top: 40px;
 }
+
+.quotes{
+    min-height: 100vh;
+}
+
+.blockquote-wrapper {
+    display: flex;
+    height: 30vh;
+    padding: 0 20px;
+ }
+ 
+ /* Blockquote main style */
+ .blockquote {
+     position: relative;
+     font-family: 'Barlow Condensed', sans-serif;
+     max-width: 620px;
+     margin: 80px auto;
+     align-self: center;
+ }
+ 
+ /* Blockquote header */
+ .blockquote h1 {
+     font-family: 'Abril Fatface', cursive;
+     position: relative; /* for pseudos */
+     color: #e74848;
+     font-size: 2.8rem;
+     font-weight: normal;
+     line-height: 1;
+     margin: 0;
+     border: 2px solid #fff;
+     border: solid 2px;
+     border-radius:20px;
+     padding: 25px;
+ }
+ 
+ /* Blockquote right double quotes */
+ .blockquote h1:after {
+     content:"";
+     position: absolute;
+     border: 2px solid #e74848;
+     border-radius: 0 50px 0 0;
+     width: 60px;
+     height: 60px;
+     bottom: -62px;
+     left: 50px;
+     border-bottom: none;
+     border-left: none;
+     z-index: 3; 
+ }
+ 
+ .blockquote h1:before {
+     content:"";
+     position: absolute;
+     width: 80px;
+     border: 6px solid #292a2b;
+     bottom: -3px;
+     left: 50px;
+     z-index: 2;
+ }
+ 
+ /* increase header size after 600px */
+ @media all and (min-width: 600px) {
+     .blockquote h1 {
+         font-size: 3rem;
+         line-height: 1.2;
+    }
+ 
+ }
+ 
+ /* Blockquote subheader */
+ .blockquote h4 {
+     position: relative;
+     color: #ffffff;
+     font-size: 1.3rem;
+     font-weight: 400;
+     line-height: 1.2;
+     margin: 0;
+     padding-top: 15px;
+     z-index: 1;
+     margin-left:150px;
+     padding-left:12px;
+ }
+ 
+  
+ .blockquote h4:first-letter {
+   margin-left:-12px;
+ }
+
+ .quote-desc{
+     max-width: 60%;
+     margin: 200px auto 100px auto;
+     font-size: 25px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 2.4rem;
+ }
 
 .about .about-content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 .about .about-content .about-icons{
     margin-top: 50px;
@@ -96,24 +171,39 @@ body{
     margin-left: 50px;
 }
 
-.about .about-content .about-icons .icons{
-    width: 150px;
-    height: 120px;
-}
-.about .about-content .about-icons .icons i.fa{
-    font-size: 80px;
-    text-align: center;
-}
-.about .about-content .about-icons .icons p{
-    font-size: 24px;
-    font-family: monospace;
-    align-self: center;
-}
-.about .about-content .about-content-text{
+
+.about .about-content-text{
     margin-top: 50px;
     max-width: 80%;
     line-height: 1.9rem;
-    font-size: 22px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2.8rem;
+}
+.about .logos{
+    max-width: 80%;
+    margin: 50px auto;
+    text-align-last: center;
+}
+.about .logos img{
+    width: 50px;
+    height: auto;
+    margin-left: 30px;
+}
+@media(max-width: 767px){
+    .about .logos{
+        max-width: 100%;
+        display: inline-block;
+    }
+    .about .logos img
+    {
+        width: 40px;
+        height: auto;
+        
+    }
 }
 
 .tracks .title-section{
@@ -269,18 +359,20 @@ body{
 
 
 @media(max-width: 767px){
+    .quote-desc{
+        max-width: 90%;
+        font-size: 20px;
+    }
     #about-text{
         font-size: 23px;
         max-width: 90%;
     }
-    .about .about-content{
-        grid-template-columns: 1fr;
-        
-    }
-    .about .about-content .about-content-text{
-        font-size: 17px;
+    .about .about-content-text{
+        font-size: 20px;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
+        line-height: 2rem;
     }
     .about .title-section{
         font-size: 28px;
