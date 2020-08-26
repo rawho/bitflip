@@ -2,6 +2,17 @@ body{
     color: #ffffff;
 }
 
+#canvas {
+    width: 100%;
+    min-height: 500vh;
+    background: #121212;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-1;
+    opacity: .4;
+}
+
 #back{
     position: absolute;
     position: fixed;
@@ -287,5 +298,8 @@ body{
     .track-container{
         grid-template-columns: 1fr;
         align-items: center;
+    }
+    #canvas{
+        min-height: 850vh;
     }
 }
