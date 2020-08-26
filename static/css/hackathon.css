@@ -1,0 +1,183 @@
+body{
+    color: #ffffff;
+}
+/* .header .container{
+    display: none;
+} */
+#back{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    opacity: .4;
+}
+#about-text{
+    color: #ff8900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    margin-top: 200px;
+    text-align: center;
+    min-height: 70vh;
+}
+.main h1{
+    font-size: 60px;
+}
+
+.title-section{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.main p{
+    font-size: 30px;
+}
+.main .btn-01{
+    margin-top: 30px;
+}
+
+.date{
+    position: relative;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#date-date{
+    font-family: monospace;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.date-ico{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    font-size: 40px;
+    color: #ff8900;
+
+}
+
+.about .about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about .about-content .about-icons{
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    justify-items: flex-end;
+    align-items: center;
+    max-width: 80%;
+    margin-left: 50px;
+}
+
+.about .about-content .about-icons .icons{
+    width: 150px;
+    height: 120px;
+}
+.about .about-content .about-icons .icons i.fa{
+    font-size: 80px;
+    text-align: center;
+}
+.about .about-content .about-icons .icons p{
+    font-size: 24px;
+    font-family: monospace;
+    align-self: center;
+}
+.about .about-content .about-content-text{
+    margin-top: 50px;
+    max-width: 80%;
+    line-height: 1.9rem;
+    font-size: 22px;
+}
+
+.tracks .title-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.track-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 60%;
+    margin: auto;
+    column-gap: 40px;
+    row-gap: 60px;
+    
+}
+.tracks .track-container .track-item .ico{
+    width: 100px;
+}
+
+.tracks .track-container .track-item p{
+    font-family: monospace;
+    text-align: center;
+    align-self: center;
+
+}
+
+.schedule .title-section{
+    margin-top: 100px;
+}
+
+.schedule .btn-01{
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #8e3c3c;
+    box-shadow: inset 0px 3px 15px 0px black;
+}
+
+.faqs .title-section{
+    margin-top: 100px;
+}
+
+.faqs .accordion{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+@media(max-width: 767px){
+    #about-text{
+        font-size: 23px;
+        max-width: 90%;
+    }
+    .about .about-content{
+        grid-template-columns: 1fr;
+        
+    }
+    .about .about-content .about-content-text{
+        font-size: 17px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about .title-section{
+        font-size: 28px;
+    }
+    .track-container{
+        grid-template-columns: 1fr 1fr;
+        max-width: 80%;
+    }
+    .faqs .accordion {
+        max-width: 90%;
+    }
+}

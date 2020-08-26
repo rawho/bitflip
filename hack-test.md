@@ -1,4 +1,4 @@
 ---
-layout: hackathon
+layout: hacktest
 permalink: /hacktest/
 ---
