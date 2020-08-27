@@ -540,3 +540,14 @@ body{
         width: 50px;
     }
 }
+
+.side{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.about .about-content-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
