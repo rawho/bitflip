@@ -543,8 +543,9 @@ body{
 
 .side{
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
+    color: #5f4425;
 }
 
 .about .about-content-text{
