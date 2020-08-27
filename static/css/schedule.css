@@ -3402,18 +3402,9 @@ mark {
 
 :root {
 	--cd-color-2: rgb(90, 90, 90);
-	--cd-color-4: hsl(111, 51%, 60%);
-	--cd-color-4-h: 111;
-	--cd-color-4-s: 51%;
-	--cd-color-4-l: 60%;
-	--cd-color-5: hsl(356, 53%, 49%);
-	--cd-color-5-h: 356;
-	--cd-color-5-s: 53%;
-	--cd-color-5-l: 49%;
-	--cd-color-6: hsl(47, 85%, 61%);
-	--cd-color-6-h: 47;
-	--cd-color-6-s: 85%;
-	--cd-color-6-l: 61%;
+	--cd-color-4: rgba(0, 0, 0, 0.7);
+	--cd-color-5: rgba(0,0,0,.7);
+	--cd-color-6: rgba(0,0,0,.7);
 	--cd-header-height: 200px;
 	--font-primary: 'Droid Serif', serif;
 	--font-secondary: 'Open Sans', sans-serif
