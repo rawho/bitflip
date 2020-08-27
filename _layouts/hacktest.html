@@ -1,10 +1,11 @@
 ---
 layout: mypage-hack
 ---
+
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="/static/css/hackathon.css">
+
 <canvas id="canvas"></canvas>
 
 <div class="main">
@@ -37,7 +38,8 @@ Or maybe you’ve already built it but you don’t have any <span class="highlig
 <span class="bigtext">Come, share your ideas with us.</span>
   </p>
 </div>
-<div class="about" id="about">
+<div id="about"></div>
+<div class="about">
     <h1 class="title-section">About The Hackathon</h1>
     <h2 id="about-text">Create anything you can imagine with code, electronics, 3D models, and more.</h2>
     
@@ -63,7 +65,8 @@ We want to create a culture of builders who are well-equipped to solve real-life
 
 </div>
 
-<div class="tracks" id="tracks">
+<div id="tracks-id" style="height: 20px;"></div>
+<div class="tracks">
     <h1 class="title-section">Tracks</h1>
     <div class="track-container">
         <div class="wrap wrap--1">
@@ -113,7 +116,9 @@ We want to create a culture of builders who are well-equipped to solve real-life
         </div>
     </div>
 </div>
-<div class="schedule" id="sch">
+
+<div id="sch"></div>
+<div class="schedule">
     <h1 class="title-section">Schedule</h1>
     <link rel="stylesheet" href="/static/css/schedule.css">
     <section class="cd-timeline js-cd-timeline">
@@ -225,7 +230,8 @@ We want to create a culture of builders who are well-equipped to solve real-life
     <!-- cd-timeline -->
 </div>
 
-<div class="organisers" id="org">
+<div id="org"></div>
+<div class="organisers">
     <center><h1 style="margin-top: 100px;">Organisers</h1></center>
     <link rel="stylesheet" href="/static/css/org.css">
     
@@ -272,7 +278,8 @@ We want to create a culture of builders who are well-equipped to solve real-life
   </div>
 </div>
 
-<div class="faqs" id="faqs-id">
+<div id="faqs-id"></div>
+<div class="faqs">
     <h1 class="title-section">FAQ</h1>
     <div class="accordion">
         <div class="accordion-item">
@@ -326,7 +333,7 @@ We want to create a culture of builders who are well-equipped to solve real-life
           </div>
     </div>
 </div>
-
+<div id="sponsors"></div>
 <div class="sponser-container">
   <h1 id="sponser">Sponsors</h1>
   <div class="border-div">
@@ -339,8 +346,9 @@ We want to create a culture of builders who are well-equipped to solve real-life
 </div>
 
 <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
-
 <script>
+
+  
     class parallaxTiltEffect {
 
 constructor({element, tiltEffect}) {
@@ -417,47 +425,47 @@ init() {
 
 }
 
-const $ = e => document.querySelector(e);
+// const $ = e => document.querySelector(e);
 
-const wrap1 = new parallaxTiltEffect({
-element: $('.wrap--1'),
-tiltEffect: 'reverse'
-});
+// const wrap1 = new parallaxTiltEffect({
+// element: $('.wrap--1'),
+// tiltEffect: 'reverse'
+// });
 
-const wrap2 = new parallaxTiltEffect({
-element: $('.wrap--2'),
-tiltEffect: 'normal'
-});
+// const wrap2 = new parallaxTiltEffect({
+// element: $('.wrap--2'),
+// tiltEffect: 'normal'
+// });
 
-const wrap3 = new parallaxTiltEffect({
-element: $('.wrap--3'),
-tiltEffect: 'reverse'
-});
+// const wrap3 = new parallaxTiltEffect({
+// element: $('.wrap--3'),
+// tiltEffect: 'reverse'
+// });
 
-const wrap4 = new parallaxTiltEffect({
-element: $('.wrap--4'),
-tiltEffect: 'normal'
-});
-const wrap5 = new parallaxTiltEffect({
-element: $('.wrap--5'),
-tiltEffect: 'reverse'
-});
-const wrap6 = new parallaxTiltEffect({
-element: $('.wrap--6'),
-tiltEffect: 'reverse'
-});
-const wrap7 = new parallaxTiltEffect({
-element: $('.wrap--7'),
-tiltEffect: 'reverse'
-});
-const wrap8 = new parallaxTiltEffect({
-element: $('.wrap--8'),
-tiltEffect: 'reverse'
-});
-const wrap9 = new parallaxTiltEffect({
-element: $('.wrap--9'),
-tiltEffect: 'reverse'
-});
+// const wrap4 = new parallaxTiltEffect({
+// element: $('.wrap--4'),
+// tiltEffect: 'normal'
+// });
+// const wrap5 = new parallaxTiltEffect({
+// element: $('.wrap--5'),
+// tiltEffect: 'reverse'
+// });
+// const wrap6 = new parallaxTiltEffect({
+// element: $('.wrap--6'),
+// tiltEffect: 'reverse'
+// });
+// const wrap7 = new parallaxTiltEffect({
+// element: $('.wrap--7'),
+// tiltEffect: 'reverse'
+// });
+// const wrap8 = new parallaxTiltEffect({
+// element: $('.wrap--8'),
+// tiltEffect: 'reverse'
+// });
+// const wrap9 = new parallaxTiltEffect({
+// element: $('.wrap--9'),
+// tiltEffect: 'reverse'
+// });
 
 const items = document.querySelectorAll(".accordion a");
  
@@ -633,6 +641,8 @@ setInterval(function() {
 		scrolling = false;
 	};
 })();
+
+
 </script>
 
 

@@ -33,20 +33,20 @@
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="brand-name">
-                    <a href="/"><img src="/static/images/logo.svg" id="logo" alt="logo"></a>
+                    <a href="#main"><img src="/static/images/logo.svg" id="logo" alt="logo"></a>
                 </div>
-                <div class="nav-toggle">
+                <div class="nav-toggle"id="main">
                     <span></span>
                 </div>
                 <nav class="nav">
                     <ul>
                         <li><a href="#about" >About</a></li>
-                        <li><a href="#tracks">Tracks</a></li>
+                        <li><a href="#tracks-id">Tracks</a></li>
                         <li><a href="#sch">Schedules</a></li>
                         <li><a href="#sponsors">Sponsors</a></li>
                         <li><a href="#org">Organisers</a></li>
                         <li><a href="#faqs-id">FAQ</a></li>
-                        <!-- <li><a href="/register" {% if page.url == "/register/" %}class="active"{% endif %}>Register</a></li> -->
+                       
                        
                     </ul>
                 </nav>
@@ -56,11 +56,10 @@
     
     <!-- Header Start End-->
     
-    <section>
+    <section >
         {{ content }}
     </section>
     <script src="/static/js/jQuery.min.js"></script>
-    <script src="/static/js/main.js"></script>
-    <script src="/static/js/index.js"></script>
+    <script src="/static/js/hacktest.js"></script>
 </body>
 </html>

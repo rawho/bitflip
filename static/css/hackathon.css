@@ -39,7 +39,7 @@ body{
 .main{
     margin-top: 200px;
     text-align: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .main h1{
     font-size: 60px;
