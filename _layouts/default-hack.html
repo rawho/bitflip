@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="College of Engineering Trivandrum brings to you, for the first time ever-  BITFLIP. Explore and choose from a wide variety of interactive and task based learning sessions, that too for free. Here is your chance to be a part of some fun non technical competitions as well!">
+    <meta name="keywords" content="Bitflip, Tech, event, Technical event, technical, html, css">
+    <meta name="author" content="Rahul T">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/static/images/logo.ico" type="image/x-icon">
+    <title>BITFLIP</title>
+</head>
+<style>
+    #logo{
+        width: 100px;
+    }
+    .header.fixed #logo{
+        width: 40px;
+    }
+    @media(max-width: 767px){
+        #logo{
+            width: 50px;
+        }
+    }
+</style>
+
+<body>
+    <!-- Header Start -->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="brand-name">
+                    <a href="/"><img src="/static/images/logo.svg" id="logo" alt="logo"></a>
+                </div>
+                <div class="nav-toggle">
+                    <span></span>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#about" >About</a></li>
+                        <li><a href="#tracks">Tracks</a></li>
+                        <li><a href="#sch">Schedules</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li><a href="#org">Organisers</a></li>
+                        <li><a href="#faqs-id">FAQ</a></li>
+                        <!-- <li><a href="/register" {% if page.url == "/register/" %}class="active"{% endif %}>Register</a></li> -->
+                       
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Header Start End-->
+    
+    <section>
+        {{ content }}
+    </section>
+    <script src="/static/js/jQuery.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>

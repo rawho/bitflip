@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
 body{
     color: #ffffff;
 }
+
 
 #canvas {
     width: 100%;
@@ -62,7 +64,12 @@ body{
 }
 
 .quotes{
+    margin-top: 200px;
     min-height: 100vh;
+}
+#why-bitflip{
+   text-align: center;
+   font-weight: 600;
 }
 
 .blockquote-wrapper {
@@ -152,8 +159,21 @@ body{
      max-width: 60%;
      margin: 200px auto 100px auto;
      font-size: 25px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Nunito', sans-serif;
      line-height: 2.4rem;
+     font-weight: 100;
+ }
+ .highlight{
+     font-family: 'Nunito', sans-serif;
+     font-weight: 600;
+ }
+ .bigtext{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 40px;
+     color: #ff8900;
+ }
+ .about{
+     margin: 250px 0;
  }
 
 .about .about-content{
@@ -444,4 +464,79 @@ body{
 .accordion .content p {
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sponser-container{
+    margin-top: 100px;
+    min-height: 100vh;
+}
+#sponser{
+    font-size: 60px;
+    text-align: center;
+}
+
+.sponser-container .border-div{
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    margin-top: 100px;
+    border-top: 2px solid #fff;
+    position: relative;
+}
+.sponser-container .border-div .platinum{
+    position: absolute;
+    top: -30px;
+    left: 35%;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(0,0,0);
+    -webkitbox-shadow: 0 0 20px #ffffff;
+    box-shadow: 5px 10px 20px rgba(23, 14, 75, 0.8);
+    border-radius: 15px;
+}
+.sponser-container .border-div .platinum h2{
+    text-align: center;
+}
+.sponser-container img{
+    max-width: 70%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
+@media(max-width: 767px){
+    .sponser-container{
+        margin-top: 100px;
+        min-height: auto;
+    }
+    .sponser-container .border-div{
+        width: 90%;
+    }
+    .sponser-container .border-div .platinum{
+        top: -30px;
+        left: 20%;
+    }
+    .sponser-container img{
+        max-width: 380px;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+}
+
+#footer{
+    color: #4b4747;
+    text-align: center;   
+    padding-top: 100px;     
+}
+#footer a{
+    color: #615f5f;
+}
+#logo{
+    width: 100px;
+}
+.header.fixed #logo{
+    width: 40px;
+}
+@media(max-width: 767px){
+    #logo{
+        width: 50px;
+    }
 }

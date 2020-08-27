@@ -1,7 +1,9 @@
 ---
-layout: mypage
+layout: mypage-hack
 ---
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="/static/css/hackathon.css">
 <canvas id="canvas"></canvas>
 
@@ -13,6 +15,8 @@ layout: mypage
     <button class="btn-01">Go To Dashboard</button>
     <p id="date">30<sup>th</sup> October 2020</p>
 </div>
+
+<h1 id="why-bitflip">Why BITFLIP?</h1>
 <div class="quotes">
   <div class="blockquote-wrapper">
     <div class="blockquote">
@@ -23,18 +27,18 @@ layout: mypage
     </div>
   </div>
   <p class="quote-desc">
-    Is how Linus Torvalds described his personal project Linux back in '91, fast-forward to 2020 and almost the entire internet runs on Linux. <br>
+    Is how <span class="highlight">Linus Torvalds </span>described his <span class="highlight">personal project</span> Linux back in <span class="highlight">'91</span>, fast-forward to 2020 and almost the entire internet runs on Linux. <br>
 <br>
 This just goes to show you that no-one knows where your “personal projects” might end up after few years. <br>
 Maybe you’ll build the next Instagram. <br>
-Or maybe you’ve already built it but you don’t have any platforms to showcase your talent. <br>
-This is where BitFlip comes in. <br><br>
+Or maybe you’ve already built it but you don’t have any <span class="highlight">platforms to showcase your talent.</span> <br>
+<br>This is where <span class="highlight"> BitFlip </span>comes in. <br><br>
 
-Come, share your ideas with us.
+<span class="bigtext">Come, share your ideas with us.</span>
   </p>
 </div>
-<div class="about">
-    <h1 class="title-section">About Hackathon</h1>
+<div class="about" id="about">
+    <h1 class="title-section">About The Hackathon</h1>
     <h2 id="about-text">Create anything you can imagine with code, electronics, 3D models, and more.</h2>
     
         <div class="about-content-text">
@@ -59,7 +63,7 @@ We want to create a culture of builders who are well-equipped to solve real-life
 
 </div>
 
-<div class="tracks">
+<div class="tracks" id="tracks">
     <h1 class="title-section">Tracks</h1>
     <div class="track-container">
         <div class="wrap wrap--1">
@@ -109,8 +113,8 @@ We want to create a culture of builders who are well-equipped to solve real-life
         </div>
     </div>
 </div>
-<div class="schedule">
-    <h1 class="title-section">See Our Schedules</h1>
+<div class="schedule" id="sch">
+    <h1 class="title-section">Schedule</h1>
     <link rel="stylesheet" href="/static/css/schedule.css">
     <section class="cd-timeline js-cd-timeline">
         <div class="container max-width-lg cd-timeline__container">
@@ -221,7 +225,7 @@ We want to create a culture of builders who are well-equipped to solve real-life
     <!-- cd-timeline -->
 </div>
 
-<div class="organisers">
+<div class="organisers" id="org">
     <center><h1 style="margin-top: 100px;">Organisers</h1></center>
     <link rel="stylesheet" href="/static/css/org.css">
     
@@ -268,8 +272,8 @@ We want to create a culture of builders who are well-equipped to solve real-life
   </div>
 </div>
 
-<div class="faqs">
-    <h1 class="title-section">Faqs</h1>
+<div class="faqs" id="faqs-id">
+    <h1 class="title-section">FAQ</h1>
     <div class="accordion">
         <div class="accordion-item">
           <a>Who can participate in BitFlip?</a>
@@ -321,6 +325,17 @@ We want to create a culture of builders who are well-equipped to solve real-life
             </div>
           </div>
     </div>
+</div>
+
+<div class="sponser-container">
+  <h1 id="sponser">Sponsors</h1>
+  <div class="border-div">
+    <div class="platinum">
+      <h2>Platinum</h2>
+        
+    </div>
+  </div>
+  <img src="/static/images/logos/devfolio.svg" alt="">
 </div>
 
 <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
