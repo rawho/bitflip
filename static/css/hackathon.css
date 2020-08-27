@@ -395,3 +395,13 @@ body{
         min-height: 850vh;
     }
 }
+
+
+.accordion a{
+    color: #fff;
+    background-color: #121212;
+}
+
+.accordion .content.active {
+    background-color: #121212;
+}
