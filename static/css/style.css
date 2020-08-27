@@ -336,7 +336,6 @@ header.fixed .nav ul li a.active{
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
   padding: 1rem 3rem 1rem 1rem;
   color: #c1c2c4;
   font-size: 1.15rem;
