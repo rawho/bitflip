@@ -499,7 +499,9 @@ body{
 }
 .sponser-container img{
     max-width: 70%;
-    margin-left: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
 }
 @media(max-width: 767px){
@@ -516,7 +518,9 @@ body{
     }
     .sponser-container img{
         max-width: 380px;
-        margin-left: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 30px;
     }
 }
