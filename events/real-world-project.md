@@ -7,5 +7,6 @@ details: Python is a simple and widely used general purpose coding language whic
 poster_path: /static/images/real-world-poster.jpg
 speaker_img_path: /static/images/python-basics-speaker.JPG
 speaker_info: <strong> Mohammed Rabeeh </strong> <br> Student at College of Engineering, Trivandrum
+code-link: https://github.com/Bitflip-CET/python-real-world
 ---
 
