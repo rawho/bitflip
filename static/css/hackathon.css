@@ -56,6 +56,10 @@ body{
 .main .btn-01{
     margin-top: 30px;
 }
+.main .btn-01:hover{
+    -webkitbox-shadow: 0 0 20px #4908b1;
+    box-shadow: 7px 13px 66px rgba(104, 22, 235, 0.8);
+}
 
 #date{
     color: #ff8900;
@@ -517,7 +521,7 @@ body{
         left: 20%;
     }
     .sponser-container img{
-        max-width: 380px;
+        max-width: 90%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -555,4 +559,58 @@ body{
 .about .about-content-text{
     font-family: 'Nunito', sans-serif;
     font-weight: 100;
+}
+
+.gold-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gold-logos .gold{
+    grid-column: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+@media(max-width: 767px){
+    .gold-logos{
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    }
+    .gold-logos img.gold{
+        width: 45%;
+    }
+ 
+}
+#gold{
+    margin-top: 200px;
+}
+
+#devfolio-apply-now {
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #3770FF;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: 30px;
+}
+
+#devfolio-apply-now:not([disabled]) {
+    cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+    background-color: #2954BF !important;
 }
