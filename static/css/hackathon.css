@@ -490,7 +490,7 @@ body{
 .sponser-container .border-div .platinum{
     position: absolute;
     top: -30px;
-    left: 35%;
+    left: 40%;
     width: 200px;
     height: 50px;
     background-color: rgba(0,0,0);
@@ -502,11 +502,11 @@ body{
     text-align: center;
 }
 .sponser-container img{
-    max-width: 70%;
+    max-width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 @media(max-width: 767px){
     .sponser-container{
@@ -521,7 +521,7 @@ body{
         left: 20%;
     }
     .sponser-container img{
-        max-width: 90%;
+        max-width: 60%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -562,28 +562,36 @@ body{
 }
 
 .gold-logos{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.gold-logos .gold{
+.sponser-container .gold-logos img.gold{
+    min-width: 40%;
     grid-column: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 
 }
+#gold{
+    margin-top: 130px;
+}
+
 @media(max-width: 767px){
     .gold-logos{
-        grid-template-columns: 1fr;
-        max-width: 90%;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
     }
     .gold-logos img.gold{
-        width: 45%;
+        width: 70%;
+    }
+    #gold {
+        margin-top: 118px;
     }
  
-}
-#gold{
-    margin-top: 200px;
 }
 
 #devfolio-apply-now {
