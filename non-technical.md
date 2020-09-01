@@ -1,5 +1,6 @@
 ---
-layout: mypage
+layout: construction
+driveId: 1yvh0vhIFDP2QkG_zurGqd8j3JH7ctC5z/preview
 permalink: /non-technical/
 ---
 
@@ -50,7 +51,9 @@ permalink: /non-technical/
         
     }
 
-    
+    video{
+        margin-top: 200px;
+    }
     
 
     @media(max-width: 767px){
@@ -71,7 +74,7 @@ permalink: /non-technical/
 
     }
 </style>
-
+<!-- {% include googleDrivePlayer.html id=page.driveId %} -->
 <div class="event-container">
     <div class="box-event">
         <div class="poster">
@@ -93,4 +96,4 @@ permalink: /non-technical/
     </div>
 
 </div>
-<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+<p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 

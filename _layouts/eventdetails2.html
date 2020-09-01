@@ -130,6 +130,10 @@ layout: default
         font-weight: 100;
         font-family: monospace;
     }
+    #footer a{
+    color: #615f5f;
+    font-size: 16px;
+    }
 
     @media(max-width: 767px) {
         .container-event {
@@ -205,11 +209,11 @@ layout: default
         <a href="/register"><button class="btn-01">Register now</button></a>
         <h4 id='event-starts-in'>Event Starts in</h4>
         <h4 id="timer"></h4>
-        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+        <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% else %}
         <h4 id="timer-started">Event has Started! Dont worry register for next event</h4>
         <a href="/events">see all events</a>
-        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+        <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% endif %}
     
 </div>

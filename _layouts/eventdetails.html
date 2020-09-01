@@ -7,7 +7,7 @@ layout: default
         background-color: #000000;
         color: #ffffff;
     }
-    .header .brand-name a {
+    .header .brand-name a { 
         color: #000000;
     }
 
@@ -41,7 +41,10 @@ layout: default
             font-family: monospace, sans-serif;
         }
     }
-
+    #footer a{
+    color: #615f5f;
+    font-size: 16px;
+    }
     .container-event {
         margin-top: 100px;
         max-width: 60%;
@@ -89,8 +92,10 @@ layout: default
         font-family: Arial, Helvetica, sans-serif;
     }
     #timer-started{
-            font-size: 40px;
-            color: tomato;
+        margin-top: 50px;
+            font-size: 25px;
+            color: rgb(231, 149, 135);
+            font-weight: 100;
     }
 
     .container-event img {
@@ -178,8 +183,9 @@ layout: default
             font-size: 40px;
         }
         #timer-started{
-            font-size: 25px;
-            color: tomato;
+            font-size: 22px;
+            color: rgb(228, 138, 122);
+            font-weight: 100;
         }
         #footer{
             position: absolute;
@@ -187,6 +193,11 @@ layout: default
             left: 0;
         }
 
+    }
+    #code-link{
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(174, 174, 252);
     }
 </style>
 
@@ -202,11 +213,11 @@ layout: default
         <a href="/register"><button class="btn-01">Register now</button></a>
         <h4 id='event-starts-in'>Event Starts in</h4>
         <h4 id="timer"></h4>
-        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+        <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% else %}
-        <h4 id="timer-started">Event has Started! Dont worry register for next event</h4>
-        <a href="/events">see all events</a>
-        <p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+        <h4 id="timer-started">Event has Started!</h4>
+        <a id="code-link" href="{{ page.code-link }}">See the code</a>
+        <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% endif %}
     
 </div>

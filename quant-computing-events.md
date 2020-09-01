@@ -33,4 +33,4 @@ permalink: /quantum-computing-events/
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
 </div>
-<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+<p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 

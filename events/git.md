@@ -7,5 +7,5 @@ details: The power of open source is the Power of people rule <br> Hacktoberfest
 time: sept 5, 2020 10:00:00
 poster_path: /static/images/git-poster.jpg
 speaker_img_path: /static/images/git-speaker.jpg
-speaker_info: <strong> Sashwant K </strong> <br> CAD Engineer at Xilinx
+speaker_info: <strong> Sashwat K </strong> <br> CAD Engineer at Xilinx
 ---

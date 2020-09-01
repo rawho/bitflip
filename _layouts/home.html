@@ -2,6 +2,12 @@
 layout: default
 ---
 <style>
+     #timer-started{
+        margin-top: 50px;
+            font-size: 25px;
+            color: rgb(231, 149, 135);
+            font-weight: 100;
+    }
     .home{
        margin-top: 250px;
        margin-bottom: 100px;
@@ -48,9 +54,10 @@ layout: default
                     Then you have come to the right place! <br>
                     Go on, find a session best suited for you and register now! </h4>
                     
-                <a href="/register"><button class="btn-01">Register now</button></a>
-                <h4 id='event-starts-in'>Event Starts in</h4>
-                <h4 id="timer"></h4>
+                <a href="/register"><button" class="btn-01">Register Now</button></a>
+                <!-- <h4 id="timer-started">Event has Started!</h4> -->
+                <!-- <h4 id='event-starts-in'>Event Starts in</h4>
+                <h4 id="timer"></h4> -->
                 <!-- <h4 id="timer-started">Started</h4> -->
             </div>
             
@@ -63,7 +70,7 @@ layout: default
 
 <script>
     // Set the date we're counting down to
-    var countDownDate = new Date("Aug 26, 2020 10:20:25").getTime();
+    var countDownDate = new Date("Aug 26, 2020 18:00:00").getTime();
     
     // Update the count down every 1 second
     var x = setInterval(function() {

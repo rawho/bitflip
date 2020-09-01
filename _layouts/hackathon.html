@@ -2,6 +2,9 @@
 layout: mypage
 ---
 <style>
+    body{
+        color: #ffffff;
+    }
   .container-faq{
     max-width: 50%;
     margin-right: auto;
@@ -131,9 +134,34 @@ layout: mypage
         align-items: center;
         align-self: center;
     }
+    .tracks{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 100px ;
+    }
+    .tracks .track-item .fa{
+        font-size: 50px;
+    }
+    .tracks h1{
+        font-size: 50px;
+        color: #ffffff;
+        text-align: center;
+        grid-column: 1/10;
+        margin-bottom: 100px;
+    }
     @media(max-width: 767px){
-        .about{
+        .tracks{
+            display: grid;
             grid-template-columns: 1fr;
+            max-width: 100%;
+        }
+        .tracks .track-item{
+            grid-column: 1/2;
+        }
+        .about{
+            grid-template-columns: 1fr; 
             max-width: 100%;
             padding: 0 10px;
         }
@@ -210,6 +238,45 @@ layout: mypage
     
 </section>
 
+<div class="tracks">
+    <h1>Tracks</h1>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Ml/AI</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Web3 (Blockchain )</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Fintech</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Algorithm</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>AR/VR</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Health Tech</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Social Apps</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Ed Tech</p>
+    </div>
+    <div class="track-item">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p>Open Innovation</p>
+    </div>
+</div>
 <section class="home-section speaker-section">
     <div class="container">
         <div class="home-content speakers">
@@ -224,17 +291,6 @@ layout: mypage
                     <h2>Rahul T</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
                 </div>
-                <div class="speaker-card">
-                    <img src="/static/images/art.jpg" alt="">
-                    <h2>Rahul T</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
-                </div>
-                <div class="speaker-card">
-                    <img src="/static/images/art.jpg" alt="">
-                    <h2>Rahul T</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, optio quidem itaque officiis mollitia eveniet molestiae voluptatibus rerum quod numquam suscipit inventore veritatis blanditiis, pariatur voluptate asperiores aspernatur tenetur nesciunt!</p>
-                </div>
-                
                 <div class="speaker-card">
                     <img src="/static/images/art.jpg" alt="">
                     <h2>Rahul T</h2>
@@ -273,11 +329,6 @@ layout: mypage
                     <h2>Something</h2>
                     <p>Yubikey 5 Nanos Sponsored By MLH</p>
                 </div>
-                <div class="speaker-card">
-                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                    <h2>Something</h2>
-                    <p>Yubikey 5 Nanos Sponsored By MLH</p>
-                </div>
         </div>
         
     </div>
@@ -291,28 +342,58 @@ layout: mypage
    
     <div class="accordion">
       <div class="accordion-item">
-        <a>Question1</a>
+        <a>Who can participate in BitFlip?</a>
         <div class="content">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias reprehenderit deserunt laboriosam eos harum dignissimos, illo distinctio, quas sit, possimus aliquam voluptatum. Laboriosam quod debitis eveniet officia deserunt ratione aspernatur?</p>
+          <p>Anyone! Whether you are a total beginner or a tech wizard, it doesn’t matter. Everyone is welcome to participate in BitFlip! :)</p>
       </div>
   
       <div class="accordion-item">
-        <a>Question2</a>
+        <a>How much does it cost to participate in BitFliP?</a>
         <div class="content">
-          <p>Answer2</p>
+          <p>Zero. Zip. Zilch. Nada. Nothing. Admission to BitFlip is completely free, thanks to our sponsors!</p>
       </div>
   
   
       <div class="accordion-item">
-        <a>Question3</a>
+        <a>Is it a team event?</a>
         <div class="content">
-          <p>Answer3</p>
+          <p>Yes, you can have up to 5 members in a team.</p>
       </div>
-  
+      <div class="accordion-item">
+        <a>Can I apply individually?</a>
+        <div class="content">
+          <p>Yes, you can also form a team after you get selected.</p>
+      </div>
+
+      <div class="accordion-item">
+        <a>Does BitFlip have a selection round?</a>
+        <div class="content">
+          <p>Well yes, but actually no.
+            We plan to have a completely lenient selection process. It all boils down to your idea that you want to work on during the hackathon, so you don’t necessarily need to have fancy GitHub or LinkedIn accounts.</p>
+      </div>
+
+      <div class="accordion-item">
+        <a>What do I get by attending BitFlip?</a>
+        <div class="content">
+          <p>Everything! You get to meet your fellow hackers and our wonderful mentors. On top of that, we have some exciting prizes for the winners.</p>
+      </div>
+
+      <div class="accordion-item">
+        <a>Ummm, hardware tracks?</a>
+        <div class="content">
+          <p>We sadly don’t have any hardware track, since it’s an online hackathon. Maybe next time :)</p>
+      </div>
+
+      <div class="accordion-item">
+        <a>Is there a code of conduct?</a>
+        <div class="content">
+          <p>Yep, we will be following the Devfolio’s Code of Conduct.</p>
+      </div>
+
     </div>
     
   </div>
   <div class="sponsers">
         <h2>Sponsers</h2>
   </div>
-<p id="footer">&copy; Bitflip | Designed and developed by Rahul T</p> 
+  <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
