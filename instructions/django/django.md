@@ -4,7 +4,11 @@ heading: Django
 description: Django is one of the latest and widely used backend framework for hosting websites and web apps; written in Python Language. Django makes it easy to start small scale development and easily scale it up as per requirement.
 permalink: instructions/django
 ---
+
+
 # Installation
+
+It isn't very strict but, for your own ease, it is recommended to download and install a code editor like Visual Studio Code, or Sublime or any code editor of your choice. The workshop code can be done even in notepad, but for easier understanding and lesser errors, a code editor is very highly recommended. 
 
 Please make sure that you have Python and pip installed in your system.
 
