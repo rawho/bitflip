@@ -1,0 +1,4 @@
+---
+layout: mypage
+permalink: /testing/
+---
