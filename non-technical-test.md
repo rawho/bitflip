@@ -1,7 +1,7 @@
 ---
 layout: mypage
 driveId: 1yvh0vhIFDP2QkG_zurGqd8j3JH7ctC5z/preview
-permalink: /non-technical-test/
+permalink: /non-technicaltest/
 ---
 
 <style>
@@ -74,7 +74,7 @@ permalink: /non-technical-test/
 
     }
 </style>
-<!-- {% include googleDrivePlayer.html id=page.driveId %} -->
+{% include googleDrivePlayer.html id=page.driveId %}
 <div class="event-container">
     <div class="box-event">
         <div class="poster">
