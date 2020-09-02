@@ -28,7 +28,7 @@
     opacity: 0;
     transition: .5s all ease;
 }
-.non-tech-container .poster-container .posters:hover(1){
+.non-tech-container .poster-container .posters:hover:nth-child(1){
     z-index: 1;
     transform: scale(1.3) translateX(80px);
     -webkitbox-shadow: 0 0 20px #4908b1;
