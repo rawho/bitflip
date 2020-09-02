@@ -1,0 +1,69 @@
+.non-tech-container{
+    min-height: 100vh;
+    margin-top: 300px;
+}
+
+.non-tech-container .poster-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.non-tech-container .poster-container .posters{
+    position: relative;
+    grid-column: auto;
+    height: auto;
+    margin-top: 60px;
+    transition: .5s all ease;
+   
+}
+.non-tech-container .poster-container .posters img{
+    width: 100%;
+}
+.non-tech-container .poster-container .posters button{
+    position: absolute;
+    left: 30%;
+    opacity: 0;
+    transition: .5s all ease;
+}
+.non-tech-container .poster-container .posters:hover{
+    z-index: 1;
+    transform: scale(1.3) translateX(80px);
+    -webkitbox-shadow: 0 0 20px #4908b1;
+    box-shadow: 30px 30px 30px 66px rgba(22, 22, 24, 0.8);
+    
+}
+.non-tech-container .poster-container .posters:hover:nth-child(2){
+    z-index: 1;
+    transform: scale(1.3);
+    -webkitbox-shadow: 0 0 20px #4908b1;
+    box-shadow: 30px 30px 30px 66px rgba(22, 22, 24, 0.8);
+    
+}
+.non-tech-container .poster-container .posters:hover:nth-child(3){
+    z-index: 1;
+    transform: scale(1.3) translateX(-80px);
+    -webkitbox-shadow: 0 0 20px #4908b1;
+    box-shadow: 30px 30px 30px 66px rgba(22, 22, 24, 0.8);
+    
+}
+
+.non-tech-container .poster-container .posters:hover button{
+    z-index: 1;
+    animation: buttonmove 2.5s;
+    top: 40%;
+    opacity: 1;
+}
+
+@keyframes buttonmove {
+    from {
+        top: 90%;
+        opacity: 0;
+    }
+    to {
+        top: 40%;
+        opacity: 1;
+    }
+  }
