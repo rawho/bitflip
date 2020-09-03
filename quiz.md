@@ -93,7 +93,8 @@ body{
         <h4>Reg fee : <span class="ab">₹30/head </span> <br><br>
             Open to all <br><br>
             Teams of 4 or less</h4><br>
-            <form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FUfWXmCZeInEni"> </script> </form>
+            <a href="https://rzp.io/l/bitflipquiz"><button class="btn-01">Register Now</button></a>
+            <a href="/static/BITFLIP_VALORANT TOURNEY_ RULES AND REGULATIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>
 </div>
 
