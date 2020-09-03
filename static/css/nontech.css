@@ -24,10 +24,7 @@
     width: 100%;
 }
 .non-tech-container .poster-container .posters button{
-    position: absolute;
-    left: 30%;
-    opacity: 0;
-    transition: .5s all ease;
+    display: none;
 }
 .non-tech-container .poster-container .posters:hover:nth-child(1){
     z-index: 1;
@@ -81,6 +78,7 @@
         display: grid;
         grid-template-columns: 1fr;
         max-width: 90%;
+        row-gap: 70px;
     }
     .non-tech-container .poster-container .posters{
         grid-column: 1/2;
@@ -106,8 +104,8 @@
         box-shadow: none;
         
     }
-    .non-tech-container .poster-container .posters:hover button{
-        display: none;
+    .non-tech-container .poster-container .posters button{
+        display: block;
     }
 
 }

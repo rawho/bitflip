@@ -27,16 +27,15 @@ permalink: /test/
         <div class="posters">
             
             <a class="poster-link" href="/"><img src="/static/images/bitflip_nontech_val_final1.jpg" alt=""></a>
-            
+            <a href="/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
             <a class="poster-link" href="/"><img src="/static/images/non-tech2.jpg" alt=""></a>
-            <!-- <button class="btn-01">View Details</button> -->
-            
+            <a href="/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
             <a class="poster-link" href="/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
-            <a class="poster-link" href="/"><button class="btn-01">View Details</button></a>
+            <a href="/"><button class="btn-01">View details</button></a>
         </div>
     </div>
 </div>
