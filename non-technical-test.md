@@ -26,16 +26,16 @@ permalink: /test/
     <div class="poster-container">
         <div class="posters">
             
-            <a class="poster-link" href="/"><img src="/static/images/bitflip_nontech_val_final1.jpg" alt=""></a>
-            <a href="/"><button class="btn-01">View details</button></a>
+            <a class="poster-link" href="/non-technical/valorant/"><img src="/static/images/bitflip_nontech_val_final1.jpg" alt=""></a>
+            <a href="/non-technical/valorant/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
             <a class="poster-link" href="/non-technical/mela-Quiz/"><img src="/static/images/quiz.jpeg" alt=""></a>
             <a href="/non-technical/mela-Quiz/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
-            <a class="poster-link" href="/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
-            <a href="/"><button class="btn-01">View details</button></a>
+            <a class="poster-link" href="/non-technical/astro-quest/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
+            <a href="/non-technical/astro-quest/"><button class="btn-01">View details</button></a>
         </div>
     </div>
 </div>

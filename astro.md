@@ -1,6 +1,6 @@
 ---
 layout: mypage
-permalink: /non-technical/mela-Quiz/
+permalink: /non-technical/astro-quest/
 ---
 <style>
 
@@ -95,18 +95,17 @@ body{
 
 <div class="container-ideathon">
     <div class="boxes">
-        <img src="/static/images/quiz.jpeg" alt="poster">
+        <img src="/static/images/Astro quest_Final.png" alt="poster">
     </div>
     <div class="boxes">
-        <h4><span class="ab c">MELA QUIZ</span></h4>
-        <p>Rack your brains out as only the best can excel as you explore the fields of <span class="ab">'Music Entertainment Literature and Arts'</span>  in this quiz!</p>
-        <h4>Quiz Master : <span class="ab">Mahendra Balu P</span></h4>
-        <h4><span id="prize">Prizes worth INR 1500</span></h4>
-        <h4>Reg fee : <span class="ab">₹30/head </span> <br><br>
+        <h4><span class="ab c">ASTRO QUEST</span></h4>
+        <p>Strech your knowledge by astronomical standards to span the outer reaches of the cosmos by embarking on an exciting journey with us!</p>
+        <h4><span id="prize">PRIZE: One month Netflix subscription</span></h4>
+        <h4>Reg fee : <span class="ab">₹20 </span> <br><br>
             Open to all <br><br>
-            Teams of 4 or less</h4><br>
-            <a href="https://rzp.io/l/bitflipquiz"><button class="btn-01">Register Now</button></a>
-            <a href="/static/BITFLIP_VALORANT TOURNEY_ RULES AND REGULATIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
+            </h4><br>
+            <a href="https://rzp.io/l/bitfliptreasurehunt"><button class="btn-01">Register Now</button></a>
+            <a href="/static/BITFLIP_ASTRO QUEST_GENERAL INSTRUCTIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>
 </div>
 
