@@ -47,26 +47,6 @@
     
 }
 
-.non-tech-container .poster-container .posters:hover button{
-    z-index: 1;
-    animation: buttonmove 1.5s;
-    top: 40%;
-    opacity: 1;
-}
-
-@keyframes buttonmove {
-    from {
-        top: 90%;
-        opacity: 0;
-    }
-    to {
-        top: 40%;
-        opacity: 1;
-    }
-  }
-
-
-
 
 @media(max-width: 767px){
     .non-tech-container{
@@ -82,9 +62,6 @@
     }
     .non-tech-container .poster-container .posters{
         grid-column: 1/2;
-    }
-    .non-tech-container .poster-container .posters button{
-        display: none;
     }
     .non-tech-container .poster-container .posters:hover:nth-child(1){
         z-index: 1;
@@ -107,5 +84,7 @@
     .non-tech-container .poster-container .posters button{
         display: block;
     }
-
+    .non-tech-container .poster-container .posters a{
+        text-decoration: none;
+    }
 }

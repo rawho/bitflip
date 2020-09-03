@@ -30,8 +30,8 @@ permalink: /test/
             <a href="/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
-            <a class="poster-link" href="/"><img src="/static/images/non-tech2.jpg" alt=""></a>
-            <a href="/"><button class="btn-01">View details</button></a>
+            <a class="poster-link" href="/non-technical/mela-Quiz/"><img src="/static/images/quiz.jpeg" alt=""></a>
+            <a href="/non-technical/mela-Quiz/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
             <a class="poster-link" href="/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
