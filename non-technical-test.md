@@ -10,6 +10,8 @@ permalink: /test/
         width: 100%;
         min-height: 500vh;
         background: #121212;
+        background-image: url('/static/images/game-back.jpg');
+        background-size: contain;
         position:absolute;
         left:0;
         top:0;
@@ -23,15 +25,16 @@ permalink: /test/
 <div class="non-tech-container">
     <div class="poster-container">
         <div class="posters">
-            <img src="/static/images/non-tech1.jpg" alt="">
+            <a class="poster-link" href="#"><img src="/static/images/non-tech1.jpg" alt=""></a>
             <button class="btn-01">View Details</button>
         </div>
         <div class="posters">
-            <img src="/static/images/non-tech2.jpg" alt="">
+            <a class="poster-link" href="#"><img src="/static/images/non-tech2.jpg" alt=""></a>
             <button class="btn-01">View Details</button>
+            
         </div>
         <div class="posters">
-            <img src="/static/images/non-tech3.png" alt="">
+            <a class="poster-link" href="#"><img src="/static/images/non-tech3.png" alt=""></a>
             <button class="btn-01">View Details</button>
         </div>
     </div>
