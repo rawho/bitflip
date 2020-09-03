@@ -18,7 +18,7 @@
     height: auto;
     margin-top: 60px;
     transition: .5s all ease;
-   
+    
 }
 .non-tech-container .poster-container .posters img{
     width: 100%;
@@ -52,7 +52,7 @@
 
 .non-tech-container .poster-container .posters:hover button{
     z-index: 1;
-    animation: buttonmove 2.5s;
+    animation: buttonmove 1.5s;
     top: 40%;
     opacity: 1;
 }
@@ -68,9 +68,6 @@
     }
   }
 
-.poster-link{
-    cursor: default;
-}
 
 
 

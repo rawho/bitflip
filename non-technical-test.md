@@ -25,17 +25,18 @@ permalink: /test/
 <div class="non-tech-container">
     <div class="poster-container">
         <div class="posters">
-            <a class="poster-link" href="#"><img src="/static/images/non-tech1.jpg" alt=""></a>
-            <button class="btn-01">View Details</button>
-        </div>
-        <div class="posters">
-            <a class="poster-link" href="#"><img src="/static/images/non-tech2.jpg" alt=""></a>
-            <button class="btn-01">View Details</button>
+            
+            <a class="poster-link" href="/"><img src="/static/images/bitflip_nontech_val_final1.jpg" alt=""></a>
             
         </div>
         <div class="posters">
-            <a class="poster-link" href="#"><img src="/static/images/non-tech3.png" alt=""></a>
-            <button class="btn-01">View Details</button>
+            <a class="poster-link" href="/"><img src="/static/images/non-tech2.jpg" alt=""></a>
+            <!-- <button class="btn-01">View Details</button> -->
+            
+        </div>
+        <div class="posters">
+            <a class="poster-link" href="/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
+            <a class="poster-link" href="/"><button class="btn-01">View Details</button></a>
         </div>
     </div>
 </div>
