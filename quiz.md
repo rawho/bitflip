@@ -86,7 +86,7 @@ body{
         <img src="/static/images/quiz.jpeg" alt="poster">
     </div>
     <div class="boxes">
-        <h4>Quiz Topic : <span class="ab">Music Entertainment Literature Arts</span></h4>
+        <h4>Quiz Topic : <br> <span class="ab">Music Entertainment Literature Arts</span></h4>
         <h4>Quiz Master : <span class="ab">Mahendra Balu P</span></h4>
         <h4><span id="prize">Prizes worth INR 1500</span></h4>
         <h4>Reg fee : <span class="ab">₹30/head </span> <br><br>
