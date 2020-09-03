@@ -89,7 +89,9 @@ body{
         font-size: 30px;
     }
 }
-
+.btn-01{
+    margin-right: 50px;
+}
 </style>
 
 

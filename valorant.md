@@ -90,20 +90,23 @@ body{
     }
 }
 
+.btn-01{
+    margin-right: 50px;
+}
 </style>
 
 
 <div class="container-ideathon">
     <div class="boxes">
-        <img src="/static/images/bitflip_nontech_val_final1.jpg" alt="poster">
+        <img src="/static/images/bitflip_nontech_val_final1 (1).jpg" alt="poster">
     </div>
     <div class="boxes">
         <h4><span class="ab c">VALORANT TOURNEY</span></h4>
         <p>Enroll as teams of 5 and embark on this lethal combat where precise gunplay meets unique agent abilities!</p>
         <h4><span id="prize">PRIZE POOL: INR 2000/-</span></h4>
-        <h4>Reg fee : <span class="ab">₹200/head </span> <br><br>
+        <h4>Reg fee : <span class="ab">₹200 </span> <br><br>
             Open to all <br><br>
-            Teams of 4 or less</h4><br>
+            </h4><br>
             <a href="https://rzp.io/l/bitflipgaming"><button class="btn-01">Register Now</button></a>
             <a href="/static/BITFLIP_VALORANT TOURNEY_ RULES AND REGULATIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>

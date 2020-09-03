@@ -26,7 +26,7 @@ permalink: /test/
     <div class="poster-container">
         <div class="posters">
             
-            <a class="poster-link" href="/non-technical/valorant/"><img src="/static/images/bitflip_nontech_val_final1.jpg" alt=""></a>
+            <a class="poster-link" href="/non-technical/valorant/"><img src="/static/images/bitflip_nontech_val_final1 (1).jpg" alt=""></a>
             <a href="/non-technical/valorant/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
@@ -34,7 +34,7 @@ permalink: /test/
             <a href="/non-technical/mela-Quiz/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
-            <a class="poster-link" href="/non-technical/astro-quest/"><img src="/static/images/Astro quest_Final.png" alt=""></a>
+            <a class="poster-link" href="/non-technical/astro-quest/"><img src="/static/images/Astro quest_Final.jpg" alt=""></a>
             <a href="/non-technical/astro-quest/"><button class="btn-01">View details</button></a>
         </div>
     </div>

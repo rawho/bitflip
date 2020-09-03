@@ -89,13 +89,15 @@ body{
         font-size: 30px;
     }
 }
-
+.btn-01{
+    margin-right: 50px;
+}
 </style>
 
 
 <div class="container-ideathon">
     <div class="boxes">
-        <img src="/static/images/Astro quest_Final.png" alt="poster">
+        <img src="/static/images/Astro quest_Final.jpg" alt="poster">
     </div>
     <div class="boxes">
         <h4><span class="ab c">ASTRO QUEST</span></h4>
