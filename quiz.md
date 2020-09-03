@@ -72,6 +72,7 @@ body{
     .boxes h4{
         font-size: 22px;
         font-weight: 200;
+        color: #ffffff;
     }
     .container-ideathon .boxes:nth-child(1){
         display: block;
