@@ -216,7 +216,9 @@ layout: default
         <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% else %}
         <h4 id="timer-started">Event has Started!</h4>
-        <a id="code-link" href="{{ page.code-link }}">See the code</a>
+        {% if page.code-link %}
+            <a id="code-link" href="{{ page.code-link }}">See the code</a>
+        {% endif %}
         <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
     {% endif %}
     
