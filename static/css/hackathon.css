@@ -568,9 +568,26 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .sponser-container .gold-logos img.gold{
     min-width: 40%;
     grid-column: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+.sponser-container .bronze-logos{
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sponser-container .bronze-logos img.bronze{
+    min-width: 40%;
+    grid-column: 1/2;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
