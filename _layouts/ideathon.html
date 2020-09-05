@@ -1,5 +1,6 @@
 ---
 layout: mypage
+permalink: /non-technical/valorant/
 ---
 <style>
 
@@ -15,21 +16,25 @@ body{
     grid-template-columns: 1fr 1fr;
     max-width: 80%;
     column-gap: 20px;
+    margin-bottom: 100px;
+}
 
-}
-.boxes h4.a{
-    color: #ff8900;
-    font-weight: 200;
-}
 .boxes img{
     max-width: 80%;
     justify-self: center;
 }
+.boxes p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
 .boxes h4{
-    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ecdddd;
     font-size: 30px;
     margin-bottom: 20px;
     padding-top: 30px;
+    font-weight: 400;
 }
 .boxes h5{
     color: #ffffff;
@@ -41,6 +46,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ff8900;
     padding:5px 15px;
+    color: #ffffff;
 }
 .date-sub{
     color: #ff8900;
@@ -53,6 +59,15 @@ body{
     
     justify-self: center;
 }
+
+.ab{
+    color: #ff8900;
+    font-size: 25px;
+    font-weight: 200;
+}
+.c{
+    font-size: 35px;
+}
 @media(max-width: 767px){
     .container-ideathon{
         grid-template-columns: 1fr;
@@ -61,43 +76,195 @@ body{
     .boxes img{
         max-width: 100%;
     }
-    .boxes h4.a{
-        font-size: 22px;
-    }
+
     .boxes h4{
         font-size: 22px;
         font-weight: 200;
+        color: #ffffff;
     }
     .container-ideathon .boxes:nth-child(1){
         display: block;
     }
+    .c{
+        font-size: 30px;
+    }
 }
 
+.btn-01{
+    margin-right: 50px;
+}
+#canvas {
+        width: 100%;
+        min-height: 500vh;
+        background: #121212;
+        background-image: url('/static/images/game-back.jpg');
+        background-size: contain;
+        position:absolute;
+        left:0;
+        top:0;
+        position: fixed;
+        z-index:-1;
+        opacity: .4;
+    }
+.d{
+    font-size: 23px;
+}
+h4.z{
+    font-size: 23px;
+}
+.y{
+    font-size: 23px;
+}
+#pro{
+    margin: 0;
+}
+.border{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 90%;
+    background-color: rgba(0,0,0,0.7);
+}
+@media(max-width: 767px){
+    .d{
+        font-size: 18px;
+    }
+    h4.z, .y{
+        font-size: 18px;
+    }
+    .border{
+    border: 1px solid #ffffff;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+}
 </style>
 
+<canvas id="canvas"></canvas>
 
 <div class="container-ideathon">
     <div class="boxes">
-        <img src="/static/images/ideathon.jpeg" alt="poster">
+        <img src="/static/images/ideathon-poster.jpg" alt="poster">
     </div>
     <div class="boxes">
-        <h4>Description</h4>
-
-            We are looking for innovative ideas that are viable in today's society
-
-        <h4>Prerequisites</h4>
-        <ul>
-            <li>Documentation and Technical paper writing session</li>
-        </ul>
-        <h4 class="a">Problem Statements will be released on 4<sup>th</sup> September</h4>
-
-        <h4>Prize: <span id="prize">3K</span></h4>
-
-        <h5>Date of Submission : <span class="date-sub">15<sup>th</sup> september</span></h5>
-        <h5>Date of Presentation : <span class="date-sub">30<sup>th</sup> september</span></h5>
+        <h4><span class="ab c">IDEATHON</span></h4>
+        <p>Enroll for ideathon individually or as teams of 4 or less</p>
+        <h4><span id="prize">PRIZE POOL: ₹3000</span></h4>
+        <h4>Problem statement: <br>
+            <ul id="pro">
+                <li><span class="ab d">Decrease rapid spread and return to normalcy</span></li>
+                <li><span class="ab d">Medical systems </span></li>
+                <li><span class="ab d">Database management of patients and hospitals </span></li>
+                <li><span class="ab d">Education and business in the present scenerio </span></li>
+            </ul> </h4>
+             
+            <div class="border">
+                <h4 class="z">submission of proposals : <br><span class="ab y">15th september</span></h4>
+                <h4 class="z">presentation : <span class="ab y">30th september</span></h4>
+            </div>
+            <br> <br>
+            <a href="https://bit.ly/2ERbch3"><button class="btn-01">Register Now</button></a>
+            
     </div>
     <div class="boxes">
-        <button class="btn-01">Submission open soon</button>
+
     </div>
 </div>
+<p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p>
 
+
+<script>
+    var Canvas = document.getElementById('canvas');
+var ctx = Canvas.getContext('2d');
+
+var resize = function() {
+    Canvas.width = Canvas.clientWidth;
+    Canvas.height = Canvas.clientHeight;
+};
+window.addEventListener('resize', resize);
+resize();
+
+var elements = [];
+var presets = {};
+
+presets.o = function (x, y, s, dx, dy) {
+    return {
+        x: x,
+        y: y,
+        r: 12 * s,
+        w: 5 * s,
+        dx: dx,
+        dy: dy,
+        draw: function(ctx, t) {
+            this.x += this.dx;
+            this.y += this.dy;
+            
+            ctx.beginPath();
+            ctx.arc(this.x + + Math.sin((50 + x + (t / 10)) / 100) * 3, this.y + + Math.sin((45 + x + (t / 10)) / 100) * 4, this.r, 0, 2 * Math.PI, false);
+            ctx.lineWidth = this.w;
+            ctx.strokeStyle = '#fff';
+            ctx.stroke();
+        }
+    }
+};
+
+presets.x = function (x, y, s, dx, dy, dr, r) {
+    r = r || 0;
+    return {
+        x: x,
+        y: y,
+        s: 20 * s,
+        w: 5 * s,
+        r: r,
+        dx: dx,
+        dy: dy,
+        dr: dr,
+        draw: function(ctx, t) {
+            this.x += this.dx;
+            this.y += this.dy;
+            this.r += this.dr;
+            
+            var _this = this;
+            var line = function(x, y, tx, ty, c, o) {
+                o = o || 0;
+                ctx.beginPath();
+                ctx.moveTo(-o + ((_this.s / 2) * x), o + ((_this.s / 2) * y));
+                ctx.lineTo(-o + ((_this.s / 2) * tx), o + ((_this.s / 2) * ty));
+                ctx.lineWidth = _this.w;
+                ctx.strokeStyle = c;
+                ctx.stroke();
+            };
+            
+            ctx.save();
+            
+            ctx.translate(this.x + Math.sin((x + (t / 10)) / 100) * 5, this.y + Math.sin((10 + x + (t / 10)) / 100) * 2);
+            ctx.rotate(this.r * Math.PI / 180);
+            
+            line(-1, -1, 1, 1, '#fff');
+            line(1, -1, -1, 1, '#fff');
+            
+            ctx.restore();
+        }
+    }
+};
+
+for(var x = 0; x < Canvas.width; x++) {
+    for(var y = 0; y < Canvas.height; y++) {
+        if(Math.round(Math.random() * 8000) == 1) {
+            var s = ((Math.random() * 5) + 1) / 10;
+            if(Math.round(Math.random()) == 1)
+                elements.push(presets.o(x, y, s, 0, 0));
+            else
+                elements.push(presets.x(x, y, s, 0, 0, ((Math.random() * 3) - 1) / 10, (Math.random() * 360)));
+        }
+    }
+}
+
+setInterval(function() {
+    ctx.clearRect(0, 0, Canvas.width, Canvas.height);
+
+    var time = new Date().getTime();
+    for (var e in elements)
+		elements[e].draw(ctx, time);
+}, 10);
+</script>
