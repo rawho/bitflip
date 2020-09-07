@@ -199,6 +199,20 @@ layout: default
         text-decoration: none;
         color: rgb(174, 174, 252);
     }
+    .container-event .resource{
+        grid-column: 1/3;
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .container-event .resource ul li{
+        list-style: none;
+    }
+    .container-event .resource ul li a{
+        font-size: 20px;
+        text-decoration: none;
+
+    }
 </style>
 
 
@@ -214,6 +228,15 @@ layout: default
         <h4 id='event-starts-in'>Event Starts in</h4>
         <h4 id="timer"></h4>
         <p id="footer">&copy; Bitflip | Designed and developed by <a href="https://github.com/rawho">Rahul T</a> </p> 
+    {% else if page.resource %}
+        <div class="resource">
+            <ul>
+                <li><a href="https://colab.research.google.com/drive/1QkRoAAJsaXOKMwv_TfFNVOAWAbVZdrXR?usp=sharing">Colab Notebook Link</a></li>
+                <li><a href="/static/Bitflip_opencv_image_files.zip">Download images used</a></li>
+                <li><a href="/instructions/opencv">Installation Guide</a></li>
+            </ul>
+        </div>
+        
     {% else %}
         <h4 id="timer-started">Event has Started!</h4>
         {% if page.code-link %}
