@@ -16,13 +16,13 @@ permalink: /quantum-computing-events/
     </div>
     <div class="box-event">
         <h1>Qiskit and Quantum Circuits</h1>
-        <p>Quantum computing is an upcoming field with wide possibilities that can even be considered as the future of computational science.</p>
+        <p>A session into practical quantum computing including basic quantum programming and running circuits on real quantum computers</p>
         <i class="fa fa-angle-right"></i><a href="/events/quantum-computing-2">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
     <div class="box-event">
         <h1>Quantum Teleportation</h1>
-        <p>Quantum Teleportation is an exciting phenomenon where information is transmitted instantly between qubits over long distances</p>
+        <p>The intuition of quantum teleportation is essential for understanding the applications of quantum information sciences. </p>
         <i class="fa fa-angle-right"></i><a href="/events/quantum-computing-3">View</a>
         <img src="/static/images/quantum-com.jpeg" alt="">
     </div>
