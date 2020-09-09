@@ -135,7 +135,9 @@ body{
         <h4>Reg fee : <span class="ab">₹30/head </span> <br><br>
             Open to all <br><br>
             Teams of 4 or less</h4><br>
-            <a href="https://rzp.io/l/bitflipquiz"><button class="btn-01">Register Now</button></a>
+            <button class="btn-01" style="background-color: red">Registration Closed</button>
+            <br>
+            <br>
             <a href="/static/BITFLIP_MELA_FAQ (1).pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>
 </div>
