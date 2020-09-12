@@ -150,7 +150,7 @@ var resize = function() {
     Canvas.width = Canvas.clientWidth;
     Canvas.height = Canvas.clientHeight;
 };
-window.addEventListener('resize', resize);
+window.addEventListener('resize', resize); 
 resize();
 
 var elements = [];

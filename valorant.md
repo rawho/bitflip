@@ -121,7 +121,7 @@ body{
         <h4>Reg fee : <span class="ab">₹200 </span> <br><br>
             Open to all <br><br>
             </h4><br>
-            <a href="https://rzp.io/l/bitflipgaming"><button class="btn-01">Register Now</button></a>
+            <button class="btn-01" style="background-color: red">Registration Closed</button>
             <a href="/static/BITFLIP_VALORANT TOURNEY_ RULES AND REGULATIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>
 </div>
