@@ -582,7 +582,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .sponser-container .silver-logos img.silver{
     max-width: 25%;
@@ -623,7 +623,7 @@ body{
         margin-top: 118px;
     }
     .sponser-container .silver-logos{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         max-width: 100%;
     }
     .sponser-container .silver-logos img.silver{
