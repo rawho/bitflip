@@ -1,5 +1,5 @@
 ---
-layout: eventdetails
+layout: construction
 permalink: /events/talk-by-expert
 heading: Talk By Industry Expert
 event-date: 21th September
