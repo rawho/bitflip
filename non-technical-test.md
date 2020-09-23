@@ -34,7 +34,7 @@ permalink: /non-technical/
             <a href="/non-technical/mela-Quiz/"><button class="btn-01">View details</button></a>
         </div>
         <div class="posters">
-            <a class="poster-link" href="/non-technical/astro-quest/"><img src="/static/images/Astro quest_Final.jpg" alt=""></a>
+            <a class="poster-link" href="http://astro-quest.herokuapp.com/"><img src="/static/images/Astro quest_Final.jpg" alt=""></a>
             <a href="/non-technical/astro-quest/"><button class="btn-01">View details</button></a>
         </div>
     </div>
