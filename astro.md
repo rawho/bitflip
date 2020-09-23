@@ -119,7 +119,7 @@ body{
         <h4>Reg fee : <span class="ab">₹20 </span> <br><br>
             Open to all <br><br>
             </h4><br>
-            <a href="https://rzp.io/l/bitfliptreasurehunt"><button class="btn-01">Register Now</button></a>
+            <button class="btn-01" style="background-color: red">Registration Closed</button>
             <a href="/static/BITFLIP_ASTRO QUEST_GENERAL INSTRUCTIONS.pdf"><button class="btn-01">Rules & Regulations</button></a>
     </div>
 </div>
