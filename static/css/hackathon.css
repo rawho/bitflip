@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 body{
     color: #ffffff;
 }
@@ -63,7 +64,7 @@ body{
 
 #date{
     color: #ff8900;
-    font-family: monospace;
+    font-family: 'Raleway', sans-serif;
     margin-top: 40px;
 }
 
@@ -93,16 +94,15 @@ body{
  
  /* Blockquote header */
  .blockquote h1 {
-     font-family: 'Abril Fatface', cursive;
+     font-family: Arial, Helvetica, sans-serif;
      position: relative; /* for pseudos */
-     color: #e74848;
+     color: #ffe6e6;
      font-size: 2.8rem;
      font-weight: normal;
      line-height: 1;
      margin: 0;
-     border: 2px solid #fff;
-     border: solid 2px;
-     border-radius:20px;
+     border: 2px solid #e74848;
+     border-radius:2px;
      padding: 25px;
  }
  
@@ -464,7 +464,6 @@ body{
 .accordion .content.active {
     background-color: #271238;
     border-radius: 15px;
-    background-color: #A594F9;
 }
 
 
@@ -564,6 +563,23 @@ body{
     font-weight: 100;
 }
 
+.platinum-logos{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sponser-container .platinum-logos img.gold{
+    max-width: 70%;
+    grid-column: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
 .gold-logos{
     max-width: 60%;
     margin-left: auto;
@@ -615,6 +631,13 @@ body{
 }
 
 @media(max-width: 767px){
+    .platinum-logos{
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+    .platinum-logos img.gold{
+        width: 70%;
+    }
     .gold-logos{
         grid-template-columns: 1fr 1fr;
         max-width: 100%;
