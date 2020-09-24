@@ -155,3 +155,9 @@
   line-height: 2.5rem;
   color: #eeeeee;
 }
+
+@media(max-width: 676px) {
+  .text {
+    max-width: 90%;
+  }
+}
