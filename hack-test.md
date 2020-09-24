@@ -1,4 +1,4 @@
 ---
 layout: hacktest
-permalink: /hackfest/
+permalink: /hackathon/
 ---

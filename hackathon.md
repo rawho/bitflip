@@ -1,5 +1,0 @@
----
-layout: construction
-permalink: /hackathon/
----
-
