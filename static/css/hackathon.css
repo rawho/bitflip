@@ -568,7 +568,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sponser-container .platinum-logos img.gold{
